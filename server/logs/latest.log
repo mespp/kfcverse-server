@@ -1,8 +1,8 @@
-[15:04:57] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.18.4
-[15:04:57] [ForkJoinPool-1-worker-3/WARN]: The mod "accessories_compat_layer" contains invalid entries in its mod json:
+[17:23:25] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.18.4
+[17:23:25] [ForkJoinPool-1-worker-3/WARN]: The mod "accessories_compat_layer" contains invalid entries in its mod json:
 - Unsupported root entry "#COMMENT_breaks" at line 53 column 20
-[15:04:57] [ForkJoinPool-1-worker-6/WARN]: Mod com_github_rtyley_animated-gif-lib-for-java uses the version animated-gif-lib-1.7 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'animated'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[15:04:57] [main/INFO]: Loading 208 mods:
+[17:23:26] [ForkJoinPool-1-worker-1/WARN]: Mod com_github_rtyley_animated-gif-lib-for-java uses the version animated-gif-lib-1.7 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'animated'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[17:23:26] [main/INFO]: Loading 208 mods:
 	- accessories 1.1.0-beta.52+1.21.1
 	- accessories_compat_layer 0.1.10
 	   \-- mixinsquared 0.3.4
@@ -232,428 +232,428 @@
 	   |-- org_quiltmc_parsers_gson 0.2.1
 	   \-- org_quiltmc_parsers_json 0.2.1
 	- zamega 1.0-SNAPSHOT
-[15:04:57] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/admin/Desktop/kfcverse-server/server/libraries/net/fabricmc/sponge-mixin/0.17.0+mixin.0.8.7/sponge-mixin-0.17.0+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[15:04:57] [main/INFO]: Compatibility level set to JAVA_17
-[15:04:57] [main/INFO]: Compatibility level set to JAVA_21
-[15:04:57] [main/WARN]: Reference map 'cobblemon-battle-extras-refmap.json' for cobblemon-battle-extras-common.mixins.json could not be read. If this is a development environment you can ignore this message
-[15:04:57] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[15:04:58] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
-[15:04:58] [main/INFO]: Option 'mixin.entity.collisions.fluid' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.entity.collisions.fluid=false'.
-[15:04:58] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_support' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_support=false'.
-[15:04:58] [main/INFO]: Option 'mixin.experimental.entity.block_caching.fluid_pushing' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.fluid_pushing=false'.
-[15:04:58] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_touching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_touching=false'.
-[15:04:58] [main/INFO]: Option 'mixin.experimental.entity.block_caching.suffocation' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.suffocation=false'.
-[15:04:58] [main/INFO]: Option 'mixin.experimental.entity.block_caching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching=false'.
-[15:04:58] [main/INFO]: Loaded configuration file for Lithium: 149 options available, 0 override(s) found
-[15:04:58] [main/INFO]: Loaded configuration file for ModernFix 5.25.1+mc1.21.1: 65 options available, 0 override(s) found
-[15:04:58] [main/INFO]: Applying Nashorn fix
-[15:04:58] [main/INFO]: Packet Fixer forge 1.20.5-1.21.X has been applied successfully.
-[15:04:58] [main/WARN]: Reference map 'supermartijn642configlib.mixins.refmap.json' for supermartijn642configlib.mixins.json could not be read. If this is a development environment you can ignore this message
-[15:04:58] [main/WARN]: Reference map 'villagerconfig.refmap.json' for villagerconfig-common.mixins.json could not be read. If this is a development environment you can ignore this message
-[15:04:58] [main/WARN]: Reference map 'villagerconfig.refmap.json' for villagerconfig-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[15:04:58] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl.mixins.json could not be read. If this is a development environment you can ignore this message
-[15:04:58] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[15:04:58] [main/WARN]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
-[15:04:58] [main/WARN]: @Mixin target net.minecraft.class_906 was not found porting_lib_item_abilities.mixins.json:FishingHookRendererMixin from mod porting_lib_item_abilities
-[15:04:58] [main/WARN]: Error loading class: net/minecraft/class_4224 (java.lang.ClassNotFoundException: net/minecraft/class_4224)
-[15:04:58] [main/WARN]: @Mixin target net.minecraft.class_4224 was not found mixins.cobblemon-common.json:ChannelMixin from mod cobblemon
-[15:04:58] [main/WARN]: Error loading class: juuxel/adorn/block/variant/BlockVariantSets (java.lang.ClassNotFoundException: juuxel/adorn/block/variant/BlockVariantSets)
-[15:04:58] [main/WARN]: @Mixin target juuxel.adorn.block.variant.BlockVariantSets was not found mixins.cobblemon-common.json:invoker.AdornRegisterInvoker from mod cobblemon
-[15:04:58] [main/WARN]: Error loading class: net/minecraft/class_1140 (java.lang.ClassNotFoundException: net/minecraft/class_1140)
-[15:04:58] [main/WARN]: @Mixin target net.minecraft.class_1140 was not found mixins.cobblemon-fabric.json:FabricSoundEngineMixin from mod cobblemon
-[15:04:58] [main/WARN]: Error loading class: com/electronwill/nightconfig/core/io/IoUtils (java.lang.ClassNotFoundException: com/electronwill/nightconfig/core/io/IoUtils)
-[15:04:59] [main/WARN]: Error loading class: net/minecraft/class_287 (java.lang.ClassNotFoundException: net/minecraft/class_287)
-[15:04:59] [main/WARN]: @Mixin target net.minecraft.class_287 was not found owo.mixins.json:BufferBuilderAccessor from mod owo
-[15:04:59] [main/WARN]: Error loading class: net/minecraft/class_437 (java.lang.ClassNotFoundException: net/minecraft/class_437)
-[15:04:59] [main/WARN]: @Mixin target net.minecraft.class_437 was not found owo.mixins.json:ScreenAccessor from mod owo
-[15:04:59] [main/WARN]: Error loading class: net/minecraft/class_638 (java.lang.ClassNotFoundException: net/minecraft/class_638)
-[15:04:59] [main/WARN]: @Mixin target net.minecraft.class_638 was not found porting_lib_level_events.mixins.json:client.ClientLevelMixin from mod porting_lib_level_events
-[15:04:59] [main/WARN]: Error loading class: net/minecraft/class_918 (java.lang.ClassNotFoundException: net/minecraft/class_918)
-[15:04:59] [main/WARN]: @Mixin target net.minecraft.class_918 was not found rctmod.mixins.json:client.ItemRendererMixin from mod rctmod
-[15:04:59] [main/INFO]: Registering config for libjf-translate-v1
-[15:04:59] [main/INFO]: Registering config for respackopts
-[15:04:59] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[15:05:02] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by net.caffeinemc.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
-[15:05:04] [main/WARN]: Error loading class: net/minecraft/class_315 (java.lang.ClassNotFoundException: net/minecraft/class_315)
-[15:05:04] [main/WARN]: Error loading class: net/minecraft/class_310 (java.lang.ClassNotFoundException: net/minecraft/class_310)
-[15:05:04] [main/WARN]: Error loading class: net/minecraft/class_304 (java.lang.ClassNotFoundException: net/minecraft/class_304)
-[15:05:04] [main/INFO]: Vanilla bootstrap took 3758 milliseconds
-[15:05:04] [main/INFO]: Setting up compat modules for Accessories!
-[15:05:05] [main/INFO]: Registered Trinkets Reloaded Listeners
-[15:05:05] [main/INFO]: Registering Mod Items for carved_wood
-[15:05:05] [main/INFO]: Registering Mod Blocks for carved_wood
-[15:05:05] [main/INFO]: EveryCompat module is not loaded
-[15:05:05] [main/INFO]: Registering Recipe Serializers for carved_wood
-[15:05:05] [main/INFO]: CobbleCuisine >> Loaded config in memory!
-[15:05:05] [main/INFO]: CobbleCuisine >> Registering Effects...
-[15:05:05] [main/INFO]: CobbleCuisine >> Registering Blocks...
-[15:05:05] [main/INFO]: CobbleCuisine >> Registering Items...
-[15:05:05] [main/INFO]: CobbleCuisine >> Injecting Loot Tables...
-[15:05:05] [main/INFO]: CobbleCuisine >> Up and running! Time spent: 58.95ms
-[15:05:05] [main/ERROR]: No data fixer registered for cobbledollars:cobble_merchant
-[15:05:06] [main/INFO]: Registering C2S receiver with id cobblefurnies:craft_recipe
-[15:05:06] [main/INFO]: Registering C2S receiver with id cobblefurnies:toggle_stove_lid
-[15:05:06] [main/WARN]: Error loading class: net/minecraft/class_465 (java.lang.ClassNotFoundException: net/minecraft/class_465)
-[15:05:06] [main/WARN]: Error loading class: net/minecraft/class_1132 (java.lang.ClassNotFoundException: net/minecraft/class_1132)
-[15:05:06] [main/INFO]: Booting LaxPermissionValidator, permissions will be checked using Minecrafts permission level system, see https://minecraft.fandom.com/wiki/Permission_level
-[15:05:06] [main/INFO]: Launching Cobblemon 1.7.1 
-[15:05:06] [main/INFO]: Booting FabricPermissionValidator, permissions will be checked using fabric-permissions-api, see https://github.com/lucko/fabric-permissions-api
-[15:05:06] [main/ERROR]: No data fixer registered for cobblemon:pokemon
-[15:05:06] [main/ERROR]: No data fixer registered for cobblemon:empty_pokeball
-[15:05:06] [main/ERROR]: No data fixer registered for cobblemon:boat
-[15:05:06] [main/ERROR]: No data fixer registered for cobblemon:chest_boat
-[15:05:06] [main/ERROR]: No data fixer registered for cobblemon:poke_bobber
-[15:05:06] [main/ERROR]: No data fixer registered for cobblemon:generic_bedrock
-[15:05:06] [main/ERROR]: No data fixer registered for cobblemon:npc
-[15:05:06] [main/WARN]: Error loading class: net/minecraft/class_746 (java.lang.ClassNotFoundException: net/minecraft/class_746)
-[15:05:06] [main/INFO]: Starting the Best Spawner...
-[15:05:06] [main/INFO]: Loaded 7 spawning condition types.
-[15:05:06] [main/INFO]: Loaded 6 spawnable position types.
-[15:05:06] [main/INFO]: Loaded 3 spawn detail types.
-[15:05:06] [Cobblemon Showdown/INFO]: Starting showdown service...
-[15:05:06] [Cobblemon Showdown/INFO]: Loaded fallback file: .\showdown\data\moves.js
-[15:05:06] [Cobblemon Showdown/INFO]: Loaded fallback file: .\showdown\sim\battle-actions.js
-[15:05:06] [Cobblemon Showdown/INFO]: Loaded fallback file: .\showdown\sim\pokemons.js
-[15:05:06] [Cobblemon Showdown/INFO]: Loaded fallback file: .\showdown\data\abilities.js
-[15:05:06] [Cobblemon Showdown/INFO]: Loaded fallback file: .\showdown\sim\side.js
-[15:05:06] [Cobblemon Showdown/INFO]: Loaded fallback file: .\showdown\data\conditions.js
-[15:05:06] [Cobblemon Showdown/INFO]: Loaded fallback file: .\showdown\index.js
-[15:05:06] [Cobblemon Showdown/INFO]: All files are ready!
-[15:05:08] [Cobblemon Showdown/INFO]: Showdown has been started!
-[15:05:08] [main/INFO]: Note: Cobblemon data registries are only loaded once per server instance as Pokémon species are not safe to reload.
-[15:05:08] [main/INFO]: Registered the mega_showdown:showdown/conditions registry
-[15:05:08] [main/INFO]: Registered the mega_showdown:showdown/held_items registry
-[15:05:08] [main/INFO]: Registered the mega_showdown:showdown/typecharts registry
-[15:05:08] [main/INFO]: Registered the mega_showdown:showdown/scripts registry
-[15:05:08] [main/INFO]: Registered the cobblemon:molang registry
-[15:05:08] [main/INFO]: Registered the cobblemon:species_features registry
-[15:05:08] [main/INFO]: Registered the cobblemon:global_species_features registry
-[15:05:08] [main/INFO]: Registered the cobblemon:species_feature_assignments registry
-[15:05:08] [main/INFO]: Registered the cobblemon:action_effects registry
-[15:05:08] [main/INFO]: Registered the cobblemon:moves registry
-[15:05:08] [main/INFO]: Registered the cobblemon:abilities registry
-[15:05:08] [main/INFO]: Registered the cobblemon:behaviours registry
-[15:05:08] [main/INFO]: Registered the cobblemon:species registry
-[15:05:08] [main/INFO]: Registered the cobblemon:species_additions registry
-[15:05:08] [main/INFO]: Registered the cobblemon:pokeballs registry
-[15:05:08] [main/INFO]: Registered the cobblemon:properties_tab_completion registry
-[15:05:08] [main/INFO]: Registered the cobblemon:spawn_detail_presets registry
-[15:05:08] [main/INFO]: Registered the cobblemon:spawn_rules registry
-[15:05:08] [main/INFO]: Registered the cobblemon:mechanics registry
-[15:05:08] [main/INFO]: Registered the cobblemon:bag_items registry
-[15:05:08] [main/INFO]: Registered the cobblemon:held_items registry
-[15:05:08] [main/INFO]: Registered the cobblemon:dialogues registry
-[15:05:08] [main/INFO]: Registered the cobblemon:natural_materials registry
-[15:05:08] [main/INFO]: Registered the cobblemon:fossils registry
-[15:05:08] [main/INFO]: Registered the cobblemon:npc_preset registry
-[15:05:08] [main/INFO]: Registered the cobblemon:npc registry
-[15:05:08] [main/INFO]: Registered the cobblemon:dex_entries registry
-[15:05:08] [main/INFO]: Registered the cobblemon:dex_entry_additions registry
-[15:05:08] [main/INFO]: Registered the cobblemon:dexes registry
-[15:05:08] [main/INFO]: Registered the cobblemon:dex_additions registry
-[15:05:08] [main/INFO]: Registered the cobblemon:cosmetic_items registry
-[15:05:08] [main/INFO]: Registered the cobblemon:callbacks registry
-[15:05:08] [main/INFO]: Registered the cobblemon:unlockable_pc_box_wallpapers registry
-[15:05:08] [main/INFO]: Registered the cobblemon:marks registry
-[15:05:08] [main/INFO]: Registered the cobblemon:starters registry
-[15:05:08] [main/INFO]: Registered the cobblemon:spawn_pool_world registry
-[15:05:08] [main/INFO]: Registered the cobblemon:pokerods registry
-[15:05:08] [main/INFO]: Registered the cobblemon:berries registry
-[15:05:08] [main/INFO]: Registered the cobblemon:seasonings registry
-[15:05:08] [main/INFO]: Registered the cobblemon:pokemon_interactions registry
-[15:05:08] [main/INFO]: Registered the cobblemon:spawn_bait_effects registry
-[15:05:08] [main/INFO]: Registered the cobblemon:ride_settings registry
-[15:05:09] [main/INFO]: Datagen: LootTableScanner disabled (set enableLootScan=true to enable).
-[15:05:09] [main/INFO]: Datagen: ItemScanner disabled (set enableItemScan=true to enable).
-[15:05:09] [main/INFO]: Mod compatibility check results: {cobblepedia=false, fightorflight=true, cobblenav=true, sophisticatedbackpacks=true, waystones=true, cobbledollars=true, travelersbackpack=false}
-[15:05:09] [main/INFO]: Loaded lootRollMultiplierPercent = 70.0%
-[15:05:09] [main/INFO]: ModifyLootTables initialized; loaded 11 configured tables
-[15:05:09] [main/INFO]: LootRollScaler initialized
-[15:05:09] [main/INFO]: Cobblemon Additions mod initialized successfully.
-[15:05:09] [main/INFO]: Registered the cobblenav:biome_platforms registry
-[15:05:09] [main/INFO]: Registering items
-[15:05:09] [main/INFO]: Registering data components
-[15:05:09] [main/INFO]: Registering Mod Items for cozyhome
-[15:05:09] [main/INFO]: Registering ModBlocks for cozyhome
-[15:05:09] [main/INFO]: Registering block entities for cozyhome
-[15:05:09] [main/INFO]: Registering Item Groups for cozyhome
-[15:05:09] [main/INFO]: Registering Sounds for cozyhome
-[15:05:09] [main/INFO]: Registering Mod Data Components for cozyhome
-[15:05:09] [main/INFO]: Enabled 28 bug fixes: [MC-2025, MC-7569, MC-8187, MC-30391, MC-69216, MC-88371, MC-89146, MC-93018, MC-100991, MC-119417, MC-119754, MC-121706, MC-121903, MC-129909, MC-132878, MC-135971, MC-155509, MC-160095, MC-179072, MC-183990, MC-199467, MC-200418, MC-206922, MC-215530, MC-223153, MC-224729, MC-231743, MC-232869]
-[15:05:09] [main/INFO]: Successfully Debugify'd your game!
-[15:05:09] [main/INFO]: [FANCYMENU] Loading v3.8.1 in server-side mode on FABRIC!
-[15:05:09] [main/INFO]: Hello Fabric world from Fight or Flight!
-[15:05:09] [main/ERROR]: No data fixer registered for fightorflight:tracing_bullet
-[15:05:09] [main/ERROR]: No data fixer registered for fightorflight:arrow_projectile
-[15:05:09] [main/ERROR]: No data fixer registered for fightorflight:bullet_projectile
-[15:05:09] [main/ERROR]: No data fixer registered for fightorflight:spike_projectile
-[15:05:09] [main/ERROR]: No data fixer registered for fightorflight:floating_spike_projectile
-[15:05:09] [main/ERROR]: No data fixer registered for fightorflight:sticky_web
-[15:05:09] [main/ERROR]: No data fixer registered for fightorflight:tornado
-[15:05:09] [main/ERROR]: No data fixer registered for fightorflight:whirlpool
-[15:05:09] [main/ERROR]: No data fixer registered for fightorflight:magic_effect
-[15:05:09] [main/INFO]: Registering C2S receiver with id fightorflight:send_command
-[15:05:09] [main/INFO]: Registering C2S receiver with id fightorflight:send_move_slot
-[15:05:09] [main/ERROR]: No data fixer registered for handcrafted
-[15:05:09] [main/INFO]: Huge Structure Blocks is now making your structure blocks even bigger!
-[15:05:09] [main/INFO]: New structure size = 512
-[15:05:09] [main/INFO]: Setting up file watchers
-[15:05:09] [main/INFO]: [KONKRETE] Loading v1.9.9 in server-side mode on FABRIC!
-[15:05:09] [main/INFO]: ---------------------------
-[15:05:09] [main/INFO]: KONKRETE SHIPS AND USES THE FOLLOWING LIBRARIES:
-[15:05:09] [main/INFO]:  
-[15:05:09] [main/INFO]: Open Imaging Copyright © 2014 Dhyan Blum.
-[15:05:09] [main/INFO]: Open Imaging is licensed under Apache-2.0.
-[15:05:09] [main/INFO]:  
-[15:05:09] [main/INFO]: JsonPath Copyright © 2017 Jayway.
-[15:05:09] [main/INFO]: JsonPath is licensed under Apache-2.0.
-[15:05:09] [main/INFO]:  
-[15:05:09] [main/INFO]: Json-smart Copyright © netplex.
-[15:05:09] [main/INFO]: Json-smart is licensed under Apache-2.0.
-[15:05:09] [main/INFO]:  
-[15:05:09] [main/INFO]: Exp4j Copyright © Frank Asseg.
-[15:05:09] [main/INFO]: Exp4j is licensed under Apache-2.0. https://github.com/fasseg/exp4j
-[15:05:09] [main/INFO]: ---------------------------
-[15:05:09] [main/INFO]: [KONKRETE] Server-side modules initialized and ready to use!
-[15:05:10] [main/INFO]: Compression will use Java, encryption will use Java
-[15:05:10] [main/INFO]: LumyMon v0.5.5 - Made by LUMYVERSE
-[15:05:10] [main/INFO]: Registering C2S receiver with id mega_showdown:mega_evo
-[15:05:10] [main/INFO]: Registering C2S receiver with id mega_showdown:ultra_burst
-[15:05:10] [main/INFO]: Registering C2S receiver with id mega_showdown:secret_sword_move_swap
-[15:05:10] [main/WARN]: [MELODY] Disabling Melody since it's loaded server-side.
-[15:05:10] [main/INFO]: Registering ModBlocks for moarconcrete
-[15:05:10] [main/INFO]: chyz: now i just need to painstakingly move jerry (the little tiny lil fella tiny guy man button) to correct spot when recipe book is opened
-[15:05:10] [main/INFO]: [Ping-Wheel] Init
-[15:05:10] [main/INFO]: [Ping-Wheel] Loaded ServerConfig(defaultChannelMode=auto, playerTrackingEnabled=true, msToRegenerate=1000, rateLimit=5)
-[15:05:10] [main/INFO]: Registering ItemGroups for pokeblocks
-[15:05:10] [main/INFO]: Registering ModItems for pokeblocks
-[15:05:10] [main/INFO]: Registering ModBlocks for pokeblocks
-[15:05:10] [main/INFO]: Registering mod entities for pokeblocks
-[15:05:10] [main/ERROR]: No data fixer registered for trainer
-[15:05:10] [main/ERROR]: No data fixer registered for trainer_association
-[15:05:10] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
-[15:05:10] [main/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIPlugin
-[15:05:10] [main/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIPlugin
-[15:05:10] [main/INFO]: [REI] Registered plugin provider REIServerCompat [sophisticatedbackpacks] for REIPlugin
-[15:05:10] [main/INFO]: [REI] Registered plugin provider REIServerCompat [sophisticatedcore] for REIPlugin
-[15:05:10] [main/INFO]: [REI] Registered plugin provider REIServerCompat [sophisticatedstorage] for REIPlugin
-[15:05:10] [main/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIServerPlugin
-[15:05:10] [main/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIServerPlugin
-[15:05:10] [main/INFO]: [REI] Registered plugin provider REIServerCompat [sophisticatedbackpacks] for REIServerPlugin
-[15:05:10] [main/INFO]: [REI] Registered plugin provider REIServerCompat [sophisticatedcore] for REIServerPlugin
-[15:05:10] [main/INFO]: [REI] Registered plugin provider REIServerCompat [sophisticatedstorage] for REIServerPlugin
-[15:05:10] [main/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIServerPlugin
-[15:05:10] [main/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIPlugin
-[15:05:10] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:delete_item
-[15:05:10] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item
-[15:05:10] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
-[15:05:10] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
-[15:05:10] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items
-[15:05:10] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items_new
-[15:05:11] [main/ERROR]: No data fixer registered for 
-[15:05:11] [ToggleableConfigWatchService/INFO]: Registering config for libjf-config-core-v2
-[15:05:11] [ToggleableConfigWatchService/INFO]: Created config watch service
-[15:05:11] [main/INFO]: Creating asynchronous mapping cache executor...
-[15:05:11] [Mappings Cache Thread #1/INFO]: Verifying cache of yarn mappings...
-[15:05:11] [Mappings Cache Thread #1/INFO]: Latest build for yarn is already cached (21 hour(s) ago, refresh in 27 hour(s))
-[15:05:11] [Mappings Cache Thread #1/INFO]: Mappings for yarn build 1.21.1+build.3 are already downloaded
-[15:05:11] [Mappings Cache Thread #1/INFO]: Verified cache of yarn mappings (took 1ms)
-[15:05:11] [Mappings Cache Thread #1/INFO]: Parsing yarn mappings...
-[15:05:11] [Mappings Cache Thread #1/INFO]: Parsed yarn mappings (took 95ms)
-[15:05:11] [Mappings Cache Thread #1/INFO]: Caching yarn mappings...
-[15:05:11] [Mappings Cache Thread #1/INFO]: Cached yarn mappings (took 33ms)
-[15:05:11] [Mappings Cache Thread #1/INFO]: Cached mappings have been built (took 134ms)
-[15:05:11] [Mappings Cache Thread #1/INFO]:   Classes: 7535
-[15:05:11] [Mappings Cache Thread #1/INFO]:   Methods: 27638
-[15:05:11] [Mappings Cache Thread #1/INFO]:   Fields: 32194
-[15:05:11] [ForkJoinPool.commonPool-worker-1/INFO]: Shutting down asynchronous mapping cache executor...
-[15:05:11] [ForkJoinPool.commonPool-worker-1/INFO]: Injecting into root logger...
-[15:05:11] [main/INFO]: Zamega Mod 正在初始化!
-[15:05:11] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
-[15:05:11] [main/INFO]: Registering common data for channel xaerolib:main!
-[15:05:11] [main/INFO]: Loading primary common config for channel xaerolib:main!
-[15:05:11] [main/INFO]: Loading server config profiles for channel xaerolib:main!
-[15:05:11] [main/INFO]: Loading XaeroLib common 1/2!
-[15:05:11] [main/INFO]: Loading XaeroLib server 1/2!
-[15:05:11] [main/INFO]: Registering common data for channel xaerominimap:main!
-[15:05:11] [main/INFO]: Loading primary common config for channel xaerominimap:main!
-[15:05:11] [main/INFO]: Loading server config profiles for channel xaerominimap:main!
-[15:05:11] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[15:05:11] [main/INFO]: Registering common data for channel xaeroworldmap:main!
-[15:05:11] [main/INFO]: Loading primary common config for channel xaeroworldmap:main!
-[15:05:11] [main/INFO]: Loading server config profiles for channel xaeroworldmap:main!
-[15:05:11] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
-[15:05:11] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[15:05:12] [main/INFO]: Found non-pack entry '.\world\datapacks\extra', ignoring
-[15:05:12] [main/INFO]: Found non-pack entry '.\world\datapacks\extra', ignoring
-[15:05:13] [Worker-Main-3/WARN]: Could not extract numeric min/max for bca:general/sittingroom; skipping roll scaling
-[15:05:13] [Worker-Main-3/WARN]: Could not extract numeric min/max for bca:general/bedroom; skipping roll scaling
-[15:05:13] [Worker-Main-3/WARN]: Could not extract numeric min/max for bca:general/workshop; skipping roll scaling
-[15:05:13] [Worker-Main-3/WARN]: Could not extract numeric min/max for bca:general/attic; skipping roll scaling
-[15:05:13] [Worker-Main-3/WARN]: Could not extract numeric min/max for bca:general/blacksmith; skipping roll scaling
-[15:05:13] [Worker-Main-3/WARN]: Could not extract numeric min/max for bca:general/pokecenter; skipping roll scaling
-[15:05:13] [Worker-Main-3/WARN]: Could not extract numeric min/max for bca:general/miner; skipping roll scaling
-[15:05:13] [Worker-Main-3/WARN]: Could not extract numeric min/max for bca:general/gardening; skipping roll scaling
-[15:05:13] [Worker-Main-3/WARN]: Could not extract numeric min/max for bca:general/ice_chest; skipping roll scaling
-[15:05:13] [Worker-Main-3/WARN]: Could not extract numeric min/max for bca:general/potions; skipping roll scaling
-[15:05:13] [Worker-Main-3/WARN]: Could not extract numeric min/max for bca:general/kitchen; skipping roll scaling
-[15:05:13] [Worker-Main-3/WARN]: Could not extract numeric min/max for bca:general/easter_egg; skipping roll scaling
-[15:05:13] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/bca:general/potions}.pools[0].entries[2]: Unknown loot table called bca:support_tables/mulch
-[15:05:13] [Worker-Main-3/INFO]: Loading config file lenientdeath.json5
-[15:05:14] [Worker-Main-3/INFO]: All Tags to be dealt with: [accessories:back]
-[15:05:14] [Worker-Main-3/WARN]: [RuntimeTagModification] Adding Entries from [trinkets:chest/back] to [accessories:back]: 
+[17:23:26] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/admin/Desktop/kfcverse-server/server/libraries/net/fabricmc/sponge-mixin/0.17.0+mixin.0.8.7/sponge-mixin-0.17.0+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[17:23:26] [main/INFO]: Compatibility level set to JAVA_17
+[17:23:26] [main/INFO]: Compatibility level set to JAVA_21
+[17:23:26] [main/WARN]: Reference map 'cobblemon-battle-extras-refmap.json' for cobblemon-battle-extras-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:23:26] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:23:27] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[17:23:27] [main/INFO]: Option 'mixin.entity.collisions.fluid' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.entity.collisions.fluid=false'.
+[17:23:27] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_support' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_support=false'.
+[17:23:27] [main/INFO]: Option 'mixin.experimental.entity.block_caching.fluid_pushing' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.fluid_pushing=false'.
+[17:23:27] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_touching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_touching=false'.
+[17:23:27] [main/INFO]: Option 'mixin.experimental.entity.block_caching.suffocation' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.suffocation=false'.
+[17:23:27] [main/INFO]: Option 'mixin.experimental.entity.block_caching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching=false'.
+[17:23:27] [main/INFO]: Loaded configuration file for Lithium: 149 options available, 0 override(s) found
+[17:23:27] [main/INFO]: Loaded configuration file for ModernFix 5.25.1+mc1.21.1: 65 options available, 0 override(s) found
+[17:23:27] [main/INFO]: Applying Nashorn fix
+[17:23:27] [main/INFO]: Packet Fixer forge 1.20.5-1.21.X has been applied successfully.
+[17:23:27] [main/WARN]: Reference map 'supermartijn642configlib.mixins.refmap.json' for supermartijn642configlib.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:23:27] [main/WARN]: Reference map 'villagerconfig.refmap.json' for villagerconfig-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:23:27] [main/WARN]: Reference map 'villagerconfig.refmap.json' for villagerconfig-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:23:27] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:23:27] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:23:27] [main/WARN]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
+[17:23:27] [main/WARN]: @Mixin target net.minecraft.class_906 was not found porting_lib_item_abilities.mixins.json:FishingHookRendererMixin from mod porting_lib_item_abilities
+[17:23:27] [main/WARN]: Error loading class: net/minecraft/class_4224 (java.lang.ClassNotFoundException: net/minecraft/class_4224)
+[17:23:27] [main/WARN]: @Mixin target net.minecraft.class_4224 was not found mixins.cobblemon-common.json:ChannelMixin from mod cobblemon
+[17:23:27] [main/WARN]: Error loading class: juuxel/adorn/block/variant/BlockVariantSets (java.lang.ClassNotFoundException: juuxel/adorn/block/variant/BlockVariantSets)
+[17:23:27] [main/WARN]: @Mixin target juuxel.adorn.block.variant.BlockVariantSets was not found mixins.cobblemon-common.json:invoker.AdornRegisterInvoker from mod cobblemon
+[17:23:27] [main/WARN]: Error loading class: net/minecraft/class_1140 (java.lang.ClassNotFoundException: net/minecraft/class_1140)
+[17:23:27] [main/WARN]: @Mixin target net.minecraft.class_1140 was not found mixins.cobblemon-fabric.json:FabricSoundEngineMixin from mod cobblemon
+[17:23:27] [main/WARN]: Error loading class: com/electronwill/nightconfig/core/io/IoUtils (java.lang.ClassNotFoundException: com/electronwill/nightconfig/core/io/IoUtils)
+[17:23:27] [main/WARN]: Error loading class: net/minecraft/class_287 (java.lang.ClassNotFoundException: net/minecraft/class_287)
+[17:23:27] [main/WARN]: @Mixin target net.minecraft.class_287 was not found owo.mixins.json:BufferBuilderAccessor from mod owo
+[17:23:27] [main/WARN]: Error loading class: net/minecraft/class_437 (java.lang.ClassNotFoundException: net/minecraft/class_437)
+[17:23:27] [main/WARN]: @Mixin target net.minecraft.class_437 was not found owo.mixins.json:ScreenAccessor from mod owo
+[17:23:27] [main/WARN]: Error loading class: net/minecraft/class_638 (java.lang.ClassNotFoundException: net/minecraft/class_638)
+[17:23:27] [main/WARN]: @Mixin target net.minecraft.class_638 was not found porting_lib_level_events.mixins.json:client.ClientLevelMixin from mod porting_lib_level_events
+[17:23:27] [main/WARN]: Error loading class: net/minecraft/class_918 (java.lang.ClassNotFoundException: net/minecraft/class_918)
+[17:23:27] [main/WARN]: @Mixin target net.minecraft.class_918 was not found rctmod.mixins.json:client.ItemRendererMixin from mod rctmod
+[17:23:28] [main/INFO]: Registering config for libjf-translate-v1
+[17:23:28] [main/INFO]: Registering config for respackopts
+[17:23:28] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[17:23:32] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by net.caffeinemc.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[17:23:35] [main/WARN]: Error loading class: net/minecraft/class_315 (java.lang.ClassNotFoundException: net/minecraft/class_315)
+[17:23:35] [main/WARN]: Error loading class: net/minecraft/class_310 (java.lang.ClassNotFoundException: net/minecraft/class_310)
+[17:23:35] [main/WARN]: Error loading class: net/minecraft/class_304 (java.lang.ClassNotFoundException: net/minecraft/class_304)
+[17:23:36] [main/INFO]: Vanilla bootstrap took 6121 milliseconds
+[17:23:36] [main/INFO]: Setting up compat modules for Accessories!
+[17:23:36] [main/INFO]: Registered Trinkets Reloaded Listeners
+[17:23:38] [main/INFO]: Registering Mod Items for carved_wood
+[17:23:38] [main/INFO]: Registering Mod Blocks for carved_wood
+[17:23:38] [main/INFO]: EveryCompat module is not loaded
+[17:23:38] [main/INFO]: Registering Recipe Serializers for carved_wood
+[17:23:38] [main/INFO]: CobbleCuisine >> Loaded config in memory!
+[17:23:38] [main/INFO]: CobbleCuisine >> Registering Effects...
+[17:23:38] [main/INFO]: CobbleCuisine >> Registering Blocks...
+[17:23:38] [main/INFO]: CobbleCuisine >> Registering Items...
+[17:23:38] [main/INFO]: CobbleCuisine >> Injecting Loot Tables...
+[17:23:38] [main/INFO]: CobbleCuisine >> Up and running! Time spent: 137.34ms
+[17:23:38] [main/ERROR]: No data fixer registered for cobbledollars:cobble_merchant
+[17:23:38] [main/INFO]: Registering C2S receiver with id cobblefurnies:craft_recipe
+[17:23:38] [main/INFO]: Registering C2S receiver with id cobblefurnies:toggle_stove_lid
+[17:23:38] [main/WARN]: Error loading class: net/minecraft/class_465 (java.lang.ClassNotFoundException: net/minecraft/class_465)
+[17:23:38] [main/WARN]: Error loading class: net/minecraft/class_1132 (java.lang.ClassNotFoundException: net/minecraft/class_1132)
+[17:23:38] [main/INFO]: Booting LaxPermissionValidator, permissions will be checked using Minecrafts permission level system, see https://minecraft.fandom.com/wiki/Permission_level
+[17:23:38] [main/INFO]: Launching Cobblemon 1.7.1 
+[17:23:38] [main/INFO]: Booting FabricPermissionValidator, permissions will be checked using fabric-permissions-api, see https://github.com/lucko/fabric-permissions-api
+[17:23:39] [main/ERROR]: No data fixer registered for cobblemon:pokemon
+[17:23:39] [main/ERROR]: No data fixer registered for cobblemon:empty_pokeball
+[17:23:39] [main/ERROR]: No data fixer registered for cobblemon:boat
+[17:23:39] [main/ERROR]: No data fixer registered for cobblemon:chest_boat
+[17:23:39] [main/ERROR]: No data fixer registered for cobblemon:poke_bobber
+[17:23:39] [main/ERROR]: No data fixer registered for cobblemon:generic_bedrock
+[17:23:39] [main/ERROR]: No data fixer registered for cobblemon:npc
+[17:23:39] [main/WARN]: Error loading class: net/minecraft/class_746 (java.lang.ClassNotFoundException: net/minecraft/class_746)
+[17:23:40] [main/INFO]: Starting the Best Spawner...
+[17:23:40] [main/INFO]: Loaded 7 spawning condition types.
+[17:23:40] [main/INFO]: Loaded 6 spawnable position types.
+[17:23:40] [main/INFO]: Loaded 3 spawn detail types.
+[17:23:40] [Cobblemon Showdown/INFO]: Starting showdown service...
+[17:23:40] [Cobblemon Showdown/INFO]: Loaded fallback file: .\showdown\data\moves.js
+[17:23:40] [Cobblemon Showdown/INFO]: Loaded fallback file: .\showdown\sim\battle-actions.js
+[17:23:40] [Cobblemon Showdown/INFO]: Loaded fallback file: .\showdown\sim\pokemons.js
+[17:23:40] [Cobblemon Showdown/INFO]: Loaded fallback file: .\showdown\data\abilities.js
+[17:23:40] [Cobblemon Showdown/INFO]: Loaded fallback file: .\showdown\sim\side.js
+[17:23:40] [Cobblemon Showdown/INFO]: Loaded fallback file: .\showdown\data\conditions.js
+[17:23:40] [Cobblemon Showdown/INFO]: Loaded fallback file: .\showdown\index.js
+[17:23:40] [Cobblemon Showdown/INFO]: All files are ready!
+[17:23:42] [Cobblemon Showdown/INFO]: Showdown has been started!
+[17:23:42] [main/INFO]: Note: Cobblemon data registries are only loaded once per server instance as Pokémon species are not safe to reload.
+[17:23:42] [main/INFO]: Registered the mega_showdown:showdown/conditions registry
+[17:23:42] [main/INFO]: Registered the mega_showdown:showdown/held_items registry
+[17:23:42] [main/INFO]: Registered the mega_showdown:showdown/typecharts registry
+[17:23:42] [main/INFO]: Registered the mega_showdown:showdown/scripts registry
+[17:23:42] [main/INFO]: Registered the cobblemon:molang registry
+[17:23:42] [main/INFO]: Registered the cobblemon:species_features registry
+[17:23:42] [main/INFO]: Registered the cobblemon:global_species_features registry
+[17:23:42] [main/INFO]: Registered the cobblemon:species_feature_assignments registry
+[17:23:42] [main/INFO]: Registered the cobblemon:action_effects registry
+[17:23:42] [main/INFO]: Registered the cobblemon:moves registry
+[17:23:42] [main/INFO]: Registered the cobblemon:abilities registry
+[17:23:42] [main/INFO]: Registered the cobblemon:behaviours registry
+[17:23:42] [main/INFO]: Registered the cobblemon:species registry
+[17:23:42] [main/INFO]: Registered the cobblemon:species_additions registry
+[17:23:42] [main/INFO]: Registered the cobblemon:pokeballs registry
+[17:23:42] [main/INFO]: Registered the cobblemon:properties_tab_completion registry
+[17:23:42] [main/INFO]: Registered the cobblemon:spawn_detail_presets registry
+[17:23:42] [main/INFO]: Registered the cobblemon:spawn_rules registry
+[17:23:42] [main/INFO]: Registered the cobblemon:mechanics registry
+[17:23:42] [main/INFO]: Registered the cobblemon:bag_items registry
+[17:23:42] [main/INFO]: Registered the cobblemon:held_items registry
+[17:23:42] [main/INFO]: Registered the cobblemon:dialogues registry
+[17:23:42] [main/INFO]: Registered the cobblemon:natural_materials registry
+[17:23:42] [main/INFO]: Registered the cobblemon:fossils registry
+[17:23:42] [main/INFO]: Registered the cobblemon:npc_preset registry
+[17:23:42] [main/INFO]: Registered the cobblemon:npc registry
+[17:23:42] [main/INFO]: Registered the cobblemon:dex_entries registry
+[17:23:42] [main/INFO]: Registered the cobblemon:dex_entry_additions registry
+[17:23:42] [main/INFO]: Registered the cobblemon:dexes registry
+[17:23:42] [main/INFO]: Registered the cobblemon:dex_additions registry
+[17:23:42] [main/INFO]: Registered the cobblemon:cosmetic_items registry
+[17:23:42] [main/INFO]: Registered the cobblemon:callbacks registry
+[17:23:42] [main/INFO]: Registered the cobblemon:unlockable_pc_box_wallpapers registry
+[17:23:42] [main/INFO]: Registered the cobblemon:marks registry
+[17:23:42] [main/INFO]: Registered the cobblemon:starters registry
+[17:23:42] [main/INFO]: Registered the cobblemon:spawn_pool_world registry
+[17:23:42] [main/INFO]: Registered the cobblemon:pokerods registry
+[17:23:42] [main/INFO]: Registered the cobblemon:berries registry
+[17:23:42] [main/INFO]: Registered the cobblemon:seasonings registry
+[17:23:42] [main/INFO]: Registered the cobblemon:pokemon_interactions registry
+[17:23:42] [main/INFO]: Registered the cobblemon:spawn_bait_effects registry
+[17:23:42] [main/INFO]: Registered the cobblemon:ride_settings registry
+[17:23:42] [main/INFO]: Datagen: LootTableScanner disabled (set enableLootScan=true to enable).
+[17:23:42] [main/INFO]: Datagen: ItemScanner disabled (set enableItemScan=true to enable).
+[17:23:42] [main/INFO]: Mod compatibility check results: {cobblepedia=false, fightorflight=true, cobblenav=true, sophisticatedbackpacks=true, waystones=true, cobbledollars=true, travelersbackpack=false}
+[17:23:42] [main/INFO]: Loaded lootRollMultiplierPercent = 70.0%
+[17:23:42] [main/INFO]: ModifyLootTables initialized; loaded 11 configured tables
+[17:23:42] [main/INFO]: LootRollScaler initialized
+[17:23:42] [main/INFO]: Cobblemon Additions mod initialized successfully.
+[17:23:42] [main/INFO]: Registered the cobblenav:biome_platforms registry
+[17:23:42] [main/INFO]: Registering items
+[17:23:42] [main/INFO]: Registering data components
+[17:23:42] [main/INFO]: Registering Mod Items for cozyhome
+[17:23:43] [main/INFO]: Registering ModBlocks for cozyhome
+[17:23:43] [main/INFO]: Registering block entities for cozyhome
+[17:23:43] [main/INFO]: Registering Item Groups for cozyhome
+[17:23:43] [main/INFO]: Registering Sounds for cozyhome
+[17:23:43] [main/INFO]: Registering Mod Data Components for cozyhome
+[17:23:43] [main/INFO]: Enabled 28 bug fixes: [MC-2025, MC-7569, MC-8187, MC-30391, MC-69216, MC-88371, MC-89146, MC-93018, MC-100991, MC-119417, MC-119754, MC-121706, MC-121903, MC-129909, MC-132878, MC-135971, MC-155509, MC-160095, MC-179072, MC-183990, MC-199467, MC-200418, MC-206922, MC-215530, MC-223153, MC-224729, MC-231743, MC-232869]
+[17:23:43] [main/INFO]: Successfully Debugify'd your game!
+[17:23:43] [main/INFO]: [FANCYMENU] Loading v3.8.1 in server-side mode on FABRIC!
+[17:23:43] [main/INFO]: Hello Fabric world from Fight or Flight!
+[17:23:43] [main/ERROR]: No data fixer registered for fightorflight:tracing_bullet
+[17:23:43] [main/ERROR]: No data fixer registered for fightorflight:arrow_projectile
+[17:23:43] [main/ERROR]: No data fixer registered for fightorflight:bullet_projectile
+[17:23:43] [main/ERROR]: No data fixer registered for fightorflight:spike_projectile
+[17:23:43] [main/ERROR]: No data fixer registered for fightorflight:floating_spike_projectile
+[17:23:43] [main/ERROR]: No data fixer registered for fightorflight:sticky_web
+[17:23:43] [main/ERROR]: No data fixer registered for fightorflight:tornado
+[17:23:43] [main/ERROR]: No data fixer registered for fightorflight:whirlpool
+[17:23:43] [main/ERROR]: No data fixer registered for fightorflight:magic_effect
+[17:23:43] [main/INFO]: Registering C2S receiver with id fightorflight:send_command
+[17:23:43] [main/INFO]: Registering C2S receiver with id fightorflight:send_move_slot
+[17:23:43] [main/ERROR]: No data fixer registered for handcrafted
+[17:23:43] [main/INFO]: Huge Structure Blocks is now making your structure blocks even bigger!
+[17:23:43] [main/INFO]: New structure size = 512
+[17:23:43] [main/INFO]: Setting up file watchers
+[17:23:43] [main/INFO]: [KONKRETE] Loading v1.9.9 in server-side mode on FABRIC!
+[17:23:43] [main/INFO]: ---------------------------
+[17:23:43] [main/INFO]: KONKRETE SHIPS AND USES THE FOLLOWING LIBRARIES:
+[17:23:43] [main/INFO]:  
+[17:23:43] [main/INFO]: Open Imaging Copyright © 2014 Dhyan Blum.
+[17:23:43] [main/INFO]: Open Imaging is licensed under Apache-2.0.
+[17:23:43] [main/INFO]:  
+[17:23:43] [main/INFO]: JsonPath Copyright © 2017 Jayway.
+[17:23:43] [main/INFO]: JsonPath is licensed under Apache-2.0.
+[17:23:43] [main/INFO]:  
+[17:23:43] [main/INFO]: Json-smart Copyright © netplex.
+[17:23:43] [main/INFO]: Json-smart is licensed under Apache-2.0.
+[17:23:43] [main/INFO]:  
+[17:23:43] [main/INFO]: Exp4j Copyright © Frank Asseg.
+[17:23:43] [main/INFO]: Exp4j is licensed under Apache-2.0. https://github.com/fasseg/exp4j
+[17:23:43] [main/INFO]: ---------------------------
+[17:23:43] [main/INFO]: [KONKRETE] Server-side modules initialized and ready to use!
+[17:23:43] [main/INFO]: Compression will use Java, encryption will use Java
+[17:23:43] [main/INFO]: LumyMon v0.5.5 - Made by LUMYVERSE
+[17:23:43] [main/INFO]: Registering C2S receiver with id mega_showdown:mega_evo
+[17:23:43] [main/INFO]: Registering C2S receiver with id mega_showdown:ultra_burst
+[17:23:43] [main/INFO]: Registering C2S receiver with id mega_showdown:secret_sword_move_swap
+[17:23:43] [main/WARN]: [MELODY] Disabling Melody since it's loaded server-side.
+[17:23:43] [main/INFO]: Registering ModBlocks for moarconcrete
+[17:23:43] [main/INFO]: make a man a mod, he'll be enteratined for a few minutes - teach a man to mod, and he'll mald till the end of time
+[17:23:44] [main/INFO]: [Ping-Wheel] Init
+[17:23:44] [main/INFO]: [Ping-Wheel] Loaded ServerConfig(defaultChannelMode=auto, playerTrackingEnabled=true, msToRegenerate=1000, rateLimit=5)
+[17:23:44] [main/INFO]: Registering ItemGroups for pokeblocks
+[17:23:44] [main/INFO]: Registering ModItems for pokeblocks
+[17:23:44] [main/INFO]: Registering ModBlocks for pokeblocks
+[17:23:44] [main/INFO]: Registering mod entities for pokeblocks
+[17:23:44] [main/ERROR]: No data fixer registered for trainer
+[17:23:44] [main/ERROR]: No data fixer registered for trainer_association
+[17:23:44] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
+[17:23:44] [main/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIPlugin
+[17:23:44] [main/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIPlugin
+[17:23:44] [main/INFO]: [REI] Registered plugin provider REIServerCompat [sophisticatedbackpacks] for REIPlugin
+[17:23:44] [main/INFO]: [REI] Registered plugin provider REIServerCompat [sophisticatedcore] for REIPlugin
+[17:23:44] [main/INFO]: [REI] Registered plugin provider REIServerCompat [sophisticatedstorage] for REIPlugin
+[17:23:44] [main/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIServerPlugin
+[17:23:44] [main/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIServerPlugin
+[17:23:44] [main/INFO]: [REI] Registered plugin provider REIServerCompat [sophisticatedbackpacks] for REIServerPlugin
+[17:23:44] [main/INFO]: [REI] Registered plugin provider REIServerCompat [sophisticatedcore] for REIServerPlugin
+[17:23:44] [main/INFO]: [REI] Registered plugin provider REIServerCompat [sophisticatedstorage] for REIServerPlugin
+[17:23:44] [main/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIServerPlugin
+[17:23:44] [main/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIPlugin
+[17:23:44] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:delete_item
+[17:23:44] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item
+[17:23:44] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
+[17:23:44] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
+[17:23:44] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items
+[17:23:44] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items_new
+[17:23:44] [main/ERROR]: No data fixer registered for 
+[17:23:44] [ToggleableConfigWatchService/INFO]: Registering config for libjf-config-core-v2
+[17:23:44] [ToggleableConfigWatchService/INFO]: Created config watch service
+[17:23:45] [main/INFO]: Creating asynchronous mapping cache executor...
+[17:23:45] [Mappings Cache Thread #1/INFO]: Verifying cache of yarn mappings...
+[17:23:45] [Mappings Cache Thread #1/INFO]: Latest build for yarn is already cached (23 hour(s) ago, refresh in 25 hour(s))
+[17:23:45] [Mappings Cache Thread #1/INFO]: Mappings for yarn build 1.21.1+build.3 are already downloaded
+[17:23:45] [Mappings Cache Thread #1/INFO]: Verified cache of yarn mappings (took 2ms)
+[17:23:45] [Mappings Cache Thread #1/INFO]: Parsing yarn mappings...
+[17:23:45] [Mappings Cache Thread #1/INFO]: Parsed yarn mappings (took 133ms)
+[17:23:45] [Mappings Cache Thread #1/INFO]: Caching yarn mappings...
+[17:23:45] [Mappings Cache Thread #1/INFO]: Cached yarn mappings (took 51ms)
+[17:23:45] [Mappings Cache Thread #1/INFO]: Cached mappings have been built (took 192ms)
+[17:23:45] [Mappings Cache Thread #1/INFO]:   Classes: 7535
+[17:23:45] [Mappings Cache Thread #1/INFO]:   Methods: 27638
+[17:23:45] [Mappings Cache Thread #1/INFO]:   Fields: 32194
+[17:23:45] [ForkJoinPool.commonPool-worker-1/INFO]: Shutting down asynchronous mapping cache executor...
+[17:23:45] [ForkJoinPool.commonPool-worker-1/INFO]: Injecting into root logger...
+[17:23:45] [main/INFO]: Zamega Mod 正在初始化!
+[17:23:45] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[17:23:45] [main/INFO]: Registering common data for channel xaerolib:main!
+[17:23:45] [main/INFO]: Loading primary common config for channel xaerolib:main!
+[17:23:45] [main/INFO]: Loading server config profiles for channel xaerolib:main!
+[17:23:45] [main/INFO]: Loading XaeroLib common 1/2!
+[17:23:45] [main/INFO]: Loading XaeroLib server 1/2!
+[17:23:45] [main/INFO]: Registering common data for channel xaerominimap:main!
+[17:23:45] [main/INFO]: Loading primary common config for channel xaerominimap:main!
+[17:23:45] [main/INFO]: Loading server config profiles for channel xaerominimap:main!
+[17:23:45] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[17:23:45] [main/INFO]: Registering common data for channel xaeroworldmap:main!
+[17:23:45] [main/INFO]: Loading primary common config for channel xaeroworldmap:main!
+[17:23:45] [main/INFO]: Loading server config profiles for channel xaeroworldmap:main!
+[17:23:45] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
+[17:23:45] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[17:23:46] [main/INFO]: Found non-pack entry '.\world\datapacks\extra', ignoring
+[17:23:46] [main/INFO]: Found non-pack entry '.\world\datapacks\extra', ignoring
+[17:23:47] [Worker-Main-3/WARN]: Could not extract numeric min/max for bca:general/sittingroom; skipping roll scaling
+[17:23:47] [Worker-Main-3/WARN]: Could not extract numeric min/max for bca:general/bedroom; skipping roll scaling
+[17:23:47] [Worker-Main-3/WARN]: Could not extract numeric min/max for bca:general/workshop; skipping roll scaling
+[17:23:47] [Worker-Main-3/WARN]: Could not extract numeric min/max for bca:general/attic; skipping roll scaling
+[17:23:47] [Worker-Main-3/WARN]: Could not extract numeric min/max for bca:general/blacksmith; skipping roll scaling
+[17:23:47] [Worker-Main-3/WARN]: Could not extract numeric min/max for bca:general/pokecenter; skipping roll scaling
+[17:23:47] [Worker-Main-3/WARN]: Could not extract numeric min/max for bca:general/miner; skipping roll scaling
+[17:23:47] [Worker-Main-3/WARN]: Could not extract numeric min/max for bca:general/gardening; skipping roll scaling
+[17:23:47] [Worker-Main-3/WARN]: Could not extract numeric min/max for bca:general/ice_chest; skipping roll scaling
+[17:23:47] [Worker-Main-3/WARN]: Could not extract numeric min/max for bca:general/potions; skipping roll scaling
+[17:23:47] [Worker-Main-3/WARN]: Could not extract numeric min/max for bca:general/kitchen; skipping roll scaling
+[17:23:47] [Worker-Main-3/WARN]: Could not extract numeric min/max for bca:general/easter_egg; skipping roll scaling
+[17:23:48] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/bca:general/potions}.pools[0].entries[2]: Unknown loot table called bca:support_tables/mulch
+[17:23:48] [Worker-Main-3/INFO]: Loading config file lenientdeath.json5
+[17:23:48] [Worker-Main-4/INFO]: All Tags to be dealt with: [accessories:back]
+[17:23:48] [Worker-Main-4/WARN]: [RuntimeTagModification] Adding Entries from [trinkets:chest/back] to [accessories:back]: 
      [sophisticatedbackpacks:backpack (from sophisticatedbackpacks), sophisticatedbackpacks:copper_backpack (from sophisticatedbackpacks), sophisticatedbackpacks:iron_backpack (from sophisticatedbackpacks), sophisticatedbackpacks:gold_backpack (from sophisticatedbackpacks), sophisticatedbackpacks:diamond_backpack (from sophisticatedbackpacks), sophisticatedbackpacks:netherite_backpack (from sophisticatedbackpacks)]
-[15:05:14] [Worker-Main-10/INFO]: [FOF] Preparing to read move data
-[15:05:14] [Worker-Main-7/INFO]: Loaded 3 Custom Model Data mappings from Data Packs.
-[15:05:14] [main/INFO]: Loaded 5658 recipes
-[15:05:14] [main/INFO]: Loaded 4540 advancements
-[15:05:15] [main/INFO]: Loaded 10 server scripts and 1 client scripts
-[15:05:16] [main/INFO]: Loaded 937 moves
-[15:05:16] [main/INFO]: Loaded 325 abilities
-[15:05:16] [main/INFO]: FOF tasks injected
-[15:05:17] [main/INFO]: Loaded 49 entity behaviours
-[15:05:17] [main/INFO]: Finished additions
-[15:05:17] [cobblemon Datafixer Bootstrap/INFO]: 4 Datafixer optimizations took 29 milliseconds
-[15:05:18] [main/INFO]: Loaded 1025 Pokémon species
-[15:05:18] [main/INFO]: Loaded 27 spawn detail presets.
-[15:05:18] [main/INFO]: Starting dummy Showdown battle to force it to pre-load data.
-[15:05:18] [main/INFO]: Imported 266 held item IDs from showdown
-[15:05:18] [main/INFO]: Loaded 19 fossils
-[15:05:18] [main/ERROR]: Invalid path in mod resource-pack cobblemon: cobblemon:dex_entry_additions/README.md, ignoring
-[15:05:18] [main/ERROR]: Invalid path in mod resource-pack cobblemon: cobblemon:dex_additions/README.md, ignoring
-[15:05:18] [main/ERROR]: Unable to apply dex addition cobblemon:mega_z as the sub-dex cobblemon:mega_z does not exist
-[15:05:18] [main/INFO]: Loaded 6 callbacks and 0 client callbacks
-[15:05:18] [main/INFO]: Loaded 168 marks
-[15:05:19] [main/ERROR]: Unknown preset name: village.
-[15:05:19] [main/ERROR]: Unknown preset name: village.
-[15:05:19] [main/ERROR]: Unknown preset name: flowers.
-[15:05:19] [main/ERROR]: Unknown preset name: flowers.
-[15:05:19] [main/ERROR]: Unknown preset name: underwater.
-[15:05:19] [main/ERROR]: Unknown preset name: underwater.
-[15:05:19] [main/ERROR]: Unknown preset name: underground.
-[15:05:19] [main/ERROR]: Unknown preset name: underground.
-[15:05:19] [main/ERROR]: Unknown preset name: underground.
-[15:05:19] [main/ERROR]: Unknown preset name: underground.
-[15:05:19] [main/ERROR]: Unknown preset name: flowers.
-[15:05:19] [main/ERROR]: Unknown preset name: underground.
-[15:05:19] [main/ERROR]: Unknown preset name: ruins.
-[15:05:19] [main/ERROR]: Unknown preset name: underwater.
-[15:05:19] [main/ERROR]: Unknown preset name: underwater.
-[15:05:19] [main/ERROR]: Unknown preset name: underwater.
-[15:05:19] [main/ERROR]: Unknown preset name: underwater.
-[15:05:19] [main/ERROR]: Unknown preset name: underwater.
-[15:05:19] [main/ERROR]: Unknown preset name: underwater.
-[15:05:19] [main/ERROR]: Unknown preset name: water_surface.
-[15:05:19] [main/ERROR]: Unknown preset name: water_surface.
-[15:05:19] [main/ERROR]: Unknown preset name: water_surface.
-[15:05:19] [main/ERROR]: Unknown preset name: underwater.
-[15:05:19] [main/ERROR]: Unknown preset name: underwater.
-[15:05:19] [main/ERROR]: Unknown preset name: village.
-[15:05:19] [main/ERROR]: Unknown preset name: underground.
-[15:05:19] [main/ERROR]: Unknown preset name: ruins.
-[15:05:19] [main/INFO]: Loaded 70 berries
-[15:05:19] [main/INFO]: Loaded 137 Pokémon interaction sets
-[15:05:19] [main/INFO]: Loaded 17 biome platforms
-[15:05:19] [main/INFO]: Loading configuration
-[15:05:19] [main/INFO]: [FOF] 72 move data files processed.
-[15:05:19] [main/INFO]: Custom Model Data Mappings are now ready.
-[15:05:19] [main/INFO]: [REI] ========================================
-[15:05:19] [main/INFO]: [REI] REIPlugin starting main-reload for START.
-[15:05:19] [main/INFO]: [REI] Plugins (6):
-[15:05:19] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
-[15:05:19] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
-[15:05:19] [main/INFO]: [REI]  - (0.00) REIServerCompat of REIServerCompat [sophisticatedstorage]
-[15:05:19] [main/INFO]: [REI]  - (0.00) REIServerCompat of REIServerCompat [sophisticatedcore]
-[15:05:19] [main/INFO]: [REI]  - (0.00) REIServerCompat of REIServerCompat [sophisticatedbackpacks]
-[15:05:19] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
-[15:05:19] [main/INFO]: [REI] ========================================
-[15:05:19] [main/INFO]: [REI] @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-[15:05:19] [main/INFO]: [REI] REIServerPlugin starting main-reload for START.
-[15:05:19] [main/INFO]: [REI] Plugins (6):
-[15:05:19] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
-[15:05:19] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
-[15:05:19] [main/INFO]: [REI]  - (0.00) REIServerCompat of REIServerCompat [sophisticatedstorage]
-[15:05:19] [main/INFO]: [REI]  - (0.00) REIServerCompat of REIServerCompat [sophisticatedcore]
-[15:05:19] [main/INFO]: [REI]  - (0.00) REIServerCompat of REIServerCompat [sophisticatedbackpacks]
-[15:05:19] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
-[15:05:19] [main/INFO]: [REI] @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-[15:05:19] [main/INFO]: [REI] REIPlugin finished post-reload for START in 1.123 ms, totaling 32.55 ms.
-[15:05:19] [main/INFO]: [REI] REIServerPlugin finished post-reload for START in 674.5 μs, totaling 6.049 ms.
-[15:05:19] [main/INFO]: [REI] OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
-[15:05:19] [main/INFO]: [REI] REIPlugin starting main-reload for END.
-[15:05:19] [main/INFO]: [REI] Plugins (6):
-[15:05:19] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
-[15:05:19] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
-[15:05:19] [main/INFO]: [REI]  - (0.00) REIServerCompat of REIServerCompat [sophisticatedstorage]
-[15:05:19] [main/INFO]: [REI]  - (0.00) REIServerCompat of REIServerCompat [sophisticatedcore]
-[15:05:19] [main/INFO]: [REI]  - (0.00) REIServerCompat of REIServerCompat [sophisticatedbackpacks]
-[15:05:19] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
-[15:05:19] [main/INFO]: [REI] OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
-[15:05:19] [main/INFO]: [REI] OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
-[15:05:19] [main/INFO]: [REI] REIServerPlugin starting main-reload for END.
-[15:05:19] [main/INFO]: [REI] Plugins (6):
-[15:05:19] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
-[15:05:19] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
-[15:05:19] [main/INFO]: [REI]  - (0.00) REIServerCompat of REIServerCompat [sophisticatedstorage]
-[15:05:19] [main/INFO]: [REI]  - (0.00) REIServerCompat of REIServerCompat [sophisticatedcore]
-[15:05:19] [main/INFO]: [REI]  - (0.00) REIServerCompat of REIServerCompat [sophisticatedbackpacks]
-[15:05:19] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
-[15:05:19] [main/INFO]: [REI] OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
-[15:05:19] [main/INFO]: [REI] REIPlugin finished post-reload for END in 463.9 μs, totaling 32.57 ms.
-[15:05:19] [main/INFO]: [REI] REIServerPlugin finished post-reload for END in 346.8 μs, totaling 8.674 ms.
-[15:05:19] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 48 translation keys
-[15:05:19] [main/INFO]: Loaded 1 trades
-[15:05:19] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: cobblemon:mint_leaf, mega_showdown:rotom_appliances
-[15:05:19] [main/INFO]: [BiomeReplacer] Loaded 35 rules (35 direct, 0 tag-based) and ignored 0
-[15:05:19] [main/INFO]: [BiomeReplacer] Successfully replaced biomes in minecraft:overworld
-[15:05:19] [main/INFO]: [BiomeReplacer] Successfully replaced biomes in minecraft:the_nether
-[15:05:19] [main/INFO]: [BiomeReplacer] Skipping minecraft:the_end
-[15:05:19] [main/WARN]: Initial datapack load took 7.944 s
-[15:05:20] [main/INFO]: Applied 2367 biome modifications to 159 of 159 new biomes in 32.99 ms
-[15:05:20] [Server thread/INFO]: Loading default shop config...
-[15:05:20] [Server thread/INFO]: Default shop config loaded!
-[15:05:20] [Server thread/INFO]: Loading bank config...
-[15:05:20] [Server thread/INFO]: Bank config loaded!
-[15:05:20] [Server thread/WARN]: Error loading class: com/github/d0ctorleon/mythsandlegends/cobblemon/spawning/condition/item/KeyItemCondition (java.lang.ClassNotFoundException: com/github/d0ctorleon/mythsandlegends/cobblemon/spawning/condition/item/KeyItemCondition)
-[15:05:20] [Server thread/INFO]: Registered 8 collectors and 4 block collectors
-[15:05:20] [Server thread/INFO]: MobsBeGone >> Total Entity Types: 154 | Bit Array Size: 3 longs / 192 bits | Blacklisted Entities: 80
-[15:05:20] [Server thread/INFO]: MobsBeGone >> Up and running!
-[15:05:20] [Server thread/INFO]: Loading XaeroLib common 2/2!
-[15:05:20] [Server thread/INFO]: Loading XaeroLib server 2/2!
-[15:05:20] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[15:05:20] [Server thread/INFO]: Loading properties
-[15:05:20] [Server thread/INFO]: Default game type: SURVIVAL
-[15:05:20] [Server thread/INFO]: Generating keypair
-[15:05:20] [Server thread/INFO]: Starting Minecraft server on *:25565
-[15:05:20] [Server thread/INFO]: Using default channel type
-[15:05:20] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[15:05:20] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[15:05:20] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[15:05:20] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[15:05:20] [Server thread/INFO]: Preparing level "world"
-[15:05:21] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[15:05:21] [Server thread/WARN]: Method overwrite conflict for removeIf in modernfix-common.mixins.json:bugfix.paper_chunk_patches.SortedArraySetMixin from mod modernfix, previously written by net.caffeinemc.mods.lithium.mixin.collections.chunk_tickets.SortedArraySetMixin. Skipping method.
-[15:05:21] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[15:05:21] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[15:05:21] [Server thread/INFO]: Time elapsed: 901 ms
-[15:05:21] [Server thread/INFO]: Done (1.287s)! For help, type "help"
-[15:05:21] [Server thread/WARN]: Dedicated server took 25.86 seconds to load
-[15:05:21] [Server thread/INFO]: Optimizing spawn pools...
-[15:05:22] [Server thread/INFO]: [BattleExtras] Loaded server config from C:\Users\admin\Desktop\kfcverse-server\server\config\cobblemon-battle-extras-server.json
-[15:05:22] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[15:05:22] [Server thread/INFO]: Loading Xaero's World Map - Stage 2/2 (Server)
-[15:05:22] [Server thread/INFO]: Data pack initialized: rctmod
-[15:05:22] [Server thread/INFO]: Data pack initialized: COBBLEVERSE-RCT-DP-v16.zip
-[15:05:27] [Server thread/INFO]: Registered 1664 trainers
-[15:05:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5266ms or 105 ticks behind
-[15:06:10] [Server thread/INFO]: [STDOUT]: Lithium Cached BlockState Flags are disabled!
-[15:06:10] [Server thread/INFO]: githanoz[/127.0.0.1:60842] logged in with entity id 4 at (-454.2883605584992, 159.0, 6.402129463910342)
-[15:06:10] [Server thread/INFO]: Sending server config values to client
-[15:06:10] [Server thread/INFO]: githanoz joined the game
-[15:06:10] [Server thread/INFO]: Registered trainer player: githanoz
-[15:06:11] [Server thread/INFO]: Channel update: githanoz -> default
-[15:06:11] [Server thread/INFO]: Receiving client config
-[15:06:12] [Server thread/INFO]: [FANCYMENU] A client with FancyMenu installed joined the server: githanoz
-[15:06:30] [Server thread/INFO]: githanoz lost connection: Disconnected
-[15:06:30] [Server thread/INFO]: githanoz left the game
-[15:06:30] [Server thread/INFO]: Unregistered trainer player: githanoz
+[17:23:49] [Worker-Main-3/INFO]: [FOF] Preparing to read move data
+[17:23:49] [Worker-Main-11/INFO]: Loaded 3 Custom Model Data mappings from Data Packs.
+[17:23:49] [main/INFO]: Loaded 5658 recipes
+[17:23:49] [main/INFO]: Loaded 4540 advancements
+[17:23:49] [main/INFO]: Loaded 10 server scripts and 1 client scripts
+[17:23:51] [main/INFO]: Loaded 937 moves
+[17:23:51] [main/INFO]: Loaded 325 abilities
+[17:23:51] [main/INFO]: FOF tasks injected
+[17:23:51] [main/INFO]: Loaded 49 entity behaviours
+[17:23:52] [main/INFO]: Finished additions
+[17:23:52] [cobblemon Datafixer Bootstrap/INFO]: 4 Datafixer optimizations took 24 milliseconds
+[17:23:53] [main/INFO]: Loaded 1025 Pokémon species
+[17:23:53] [main/INFO]: Loaded 27 spawn detail presets.
+[17:23:53] [main/INFO]: Starting dummy Showdown battle to force it to pre-load data.
+[17:23:53] [main/INFO]: Imported 266 held item IDs from showdown
+[17:23:53] [main/INFO]: Loaded 19 fossils
+[17:23:54] [main/ERROR]: Invalid path in mod resource-pack cobblemon: cobblemon:dex_entry_additions/README.md, ignoring
+[17:23:54] [main/ERROR]: Invalid path in mod resource-pack cobblemon: cobblemon:dex_additions/README.md, ignoring
+[17:23:54] [main/ERROR]: Unable to apply dex addition cobblemon:mega_z as the sub-dex cobblemon:mega_z does not exist
+[17:23:54] [main/INFO]: Loaded 6 callbacks and 0 client callbacks
+[17:23:54] [main/INFO]: Loaded 168 marks
+[17:23:54] [main/ERROR]: Unknown preset name: village.
+[17:23:54] [main/ERROR]: Unknown preset name: village.
+[17:23:54] [main/ERROR]: Unknown preset name: flowers.
+[17:23:54] [main/ERROR]: Unknown preset name: flowers.
+[17:23:54] [main/ERROR]: Unknown preset name: underwater.
+[17:23:54] [main/ERROR]: Unknown preset name: underwater.
+[17:23:54] [main/ERROR]: Unknown preset name: underground.
+[17:23:54] [main/ERROR]: Unknown preset name: underground.
+[17:23:54] [main/ERROR]: Unknown preset name: underground.
+[17:23:54] [main/ERROR]: Unknown preset name: underground.
+[17:23:54] [main/ERROR]: Unknown preset name: flowers.
+[17:23:54] [main/ERROR]: Unknown preset name: underground.
+[17:23:54] [main/ERROR]: Unknown preset name: ruins.
+[17:23:54] [main/ERROR]: Unknown preset name: underwater.
+[17:23:54] [main/ERROR]: Unknown preset name: underwater.
+[17:23:54] [main/ERROR]: Unknown preset name: underwater.
+[17:23:54] [main/ERROR]: Unknown preset name: underwater.
+[17:23:54] [main/ERROR]: Unknown preset name: underwater.
+[17:23:54] [main/ERROR]: Unknown preset name: underwater.
+[17:23:54] [main/ERROR]: Unknown preset name: water_surface.
+[17:23:54] [main/ERROR]: Unknown preset name: water_surface.
+[17:23:54] [main/ERROR]: Unknown preset name: water_surface.
+[17:23:54] [main/ERROR]: Unknown preset name: underwater.
+[17:23:54] [main/ERROR]: Unknown preset name: underwater.
+[17:23:54] [main/ERROR]: Unknown preset name: village.
+[17:23:54] [main/ERROR]: Unknown preset name: underground.
+[17:23:54] [main/ERROR]: Unknown preset name: ruins.
+[17:23:54] [main/INFO]: Loaded 70 berries
+[17:23:54] [main/INFO]: Loaded 137 Pokémon interaction sets
+[17:23:54] [main/INFO]: Loaded 17 biome platforms
+[17:23:54] [main/INFO]: Loading configuration
+[17:23:54] [main/INFO]: [FOF] 72 move data files processed.
+[17:23:54] [main/INFO]: Custom Model Data Mappings are now ready.
+[17:23:54] [main/INFO]: [REI] ----------------------------------------
+[17:23:54] [main/INFO]: [REI] REIPlugin starting main-reload for START.
+[17:23:54] [main/INFO]: [REI] Plugins (6):
+[17:23:54] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[17:23:54] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[17:23:54] [main/INFO]: [REI]  - (0.00) REIServerCompat of REIServerCompat [sophisticatedstorage]
+[17:23:54] [main/INFO]: [REI]  - (0.00) REIServerCompat of REIServerCompat [sophisticatedcore]
+[17:23:54] [main/INFO]: [REI]  - (0.00) REIServerCompat of REIServerCompat [sophisticatedbackpacks]
+[17:23:54] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[17:23:54] [main/INFO]: [REI] ----------------------------------------
+[17:23:54] [main/INFO]: [REI] ++++++++++++++++++++++++++++++++++++++++
+[17:23:54] [main/INFO]: [REI] REIServerPlugin starting main-reload for START.
+[17:23:54] [main/INFO]: [REI] Plugins (6):
+[17:23:54] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[17:23:54] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[17:23:54] [main/INFO]: [REI]  - (0.00) REIServerCompat of REIServerCompat [sophisticatedstorage]
+[17:23:54] [main/INFO]: [REI]  - (0.00) REIServerCompat of REIServerCompat [sophisticatedcore]
+[17:23:54] [main/INFO]: [REI]  - (0.00) REIServerCompat of REIServerCompat [sophisticatedbackpacks]
+[17:23:54] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[17:23:54] [main/INFO]: [REI] ++++++++++++++++++++++++++++++++++++++++
+[17:23:54] [main/INFO]: [REI] REIPlugin finished post-reload for START in 1.112 ms, totaling 30.91 ms.
+[17:23:54] [main/INFO]: [REI] REIServerPlugin finished post-reload for START in 550.8 μs, totaling 5.739 ms.
+[17:23:54] [main/INFO]: [REI] @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[17:23:54] [main/INFO]: [REI] REIPlugin starting main-reload for END.
+[17:23:54] [main/INFO]: [REI] Plugins (6):
+[17:23:54] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[17:23:54] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[17:23:54] [main/INFO]: [REI]  - (0.00) REIServerCompat of REIServerCompat [sophisticatedstorage]
+[17:23:54] [main/INFO]: [REI]  - (0.00) REIServerCompat of REIServerCompat [sophisticatedcore]
+[17:23:54] [main/INFO]: [REI]  - (0.00) REIServerCompat of REIServerCompat [sophisticatedbackpacks]
+[17:23:54] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[17:23:54] [main/INFO]: [REI] @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[17:23:54] [main/INFO]: [REI] OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+[17:23:54] [main/INFO]: [REI] REIServerPlugin starting main-reload for END.
+[17:23:54] [main/INFO]: [REI] Plugins (6):
+[17:23:54] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[17:23:54] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[17:23:54] [main/INFO]: [REI]  - (0.00) REIServerCompat of REIServerCompat [sophisticatedstorage]
+[17:23:54] [main/INFO]: [REI]  - (0.00) REIServerCompat of REIServerCompat [sophisticatedcore]
+[17:23:54] [main/INFO]: [REI]  - (0.00) REIServerCompat of REIServerCompat [sophisticatedbackpacks]
+[17:23:55] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[17:23:55] [main/INFO]: [REI] OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+[17:23:55] [main/INFO]: [REI] REIPlugin finished post-reload for END in 516.3 μs, totaling 28.20 ms.
+[17:23:55] [main/INFO]: [REI] REIServerPlugin finished post-reload for END in 294.5 μs, totaling 7.902 ms.
+[17:23:55] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 48 translation keys
+[17:23:55] [main/INFO]: Loaded 1 trades
+[17:23:55] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: cobblemon:mint_leaf, mega_showdown:rotom_appliances
+[17:23:55] [main/INFO]: [BiomeReplacer] Loaded 35 rules (35 direct, 0 tag-based) and ignored 0
+[17:23:55] [main/INFO]: [BiomeReplacer] Successfully replaced biomes in minecraft:overworld
+[17:23:55] [main/INFO]: [BiomeReplacer] Successfully replaced biomes in minecraft:the_nether
+[17:23:55] [main/INFO]: [BiomeReplacer] Skipping minecraft:the_end
+[17:23:55] [main/WARN]: Initial datapack load took 9.058 s
+[17:23:55] [main/INFO]: Applied 2367 biome modifications to 159 of 159 new biomes in 23.43 ms
+[17:23:55] [Server thread/INFO]: Loading default shop config...
+[17:23:55] [Server thread/INFO]: Default shop config loaded!
+[17:23:55] [Server thread/INFO]: Loading bank config...
+[17:23:55] [Server thread/INFO]: Bank config loaded!
+[17:23:55] [Server thread/WARN]: Error loading class: com/github/d0ctorleon/mythsandlegends/cobblemon/spawning/condition/item/KeyItemCondition (java.lang.ClassNotFoundException: com/github/d0ctorleon/mythsandlegends/cobblemon/spawning/condition/item/KeyItemCondition)
+[17:23:55] [Server thread/INFO]: Registered 8 collectors and 4 block collectors
+[17:23:55] [Server thread/INFO]: MobsBeGone >> Total Entity Types: 154 | Bit Array Size: 3 longs / 192 bits | Blacklisted Entities: 80
+[17:23:55] [Server thread/INFO]: MobsBeGone >> Up and running!
+[17:23:55] [Server thread/INFO]: Loading XaeroLib common 2/2!
+[17:23:55] [Server thread/INFO]: Loading XaeroLib server 2/2!
+[17:23:55] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[17:23:55] [Server thread/INFO]: Loading properties
+[17:23:55] [Server thread/INFO]: Default game type: SURVIVAL
+[17:23:55] [Server thread/INFO]: Generating keypair
+[17:23:55] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:23:55] [Server thread/INFO]: Using default channel type
+[17:23:55] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:23:55] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:23:55] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:23:55] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:23:55] [Server thread/INFO]: Preparing level "world"
+[17:23:55] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:23:55] [Server thread/WARN]: Method overwrite conflict for removeIf in modernfix-common.mixins.json:bugfix.paper_chunk_patches.SortedArraySetMixin from mod modernfix, previously written by net.caffeinemc.mods.lithium.mixin.collections.chunk_tickets.SortedArraySetMixin. Skipping method.
+[17:23:56] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[17:23:56] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[17:23:56] [Server thread/INFO]: Time elapsed: 842 ms
+[17:23:56] [Server thread/INFO]: Done (1.110s)! For help, type "help"
+[17:23:56] [Server thread/WARN]: Dedicated server took 31.802 seconds to load
+[17:23:56] [Server thread/INFO]: Optimizing spawn pools...
+[17:23:56] [Server thread/INFO]: [BattleExtras] Loaded server config from C:\Users\admin\Desktop\kfcverse-server\server\config\cobblemon-battle-extras-server.json
+[17:23:56] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[17:23:56] [Server thread/INFO]: Loading Xaero's World Map - Stage 2/2 (Server)
+[17:23:56] [Server thread/INFO]: Data pack initialized: rctmod
+[17:23:56] [Server thread/INFO]: Data pack initialized: COBBLEVERSE-RCT-DP-v16.zip
+[17:24:01] [Server thread/INFO]: Registered 1664 trainers
+[17:24:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4930ms or 98 ticks behind
+[17:24:33] [Server thread/INFO]: [STDOUT]: Lithium Cached BlockState Flags are disabled!
+[17:24:33] [Server thread/INFO]: githanoz[/127.0.0.1:50446] logged in with entity id 4 at (-459.48845254654765, 151.0, -25.460582760224543)
+[17:24:33] [Server thread/INFO]: Sending server config values to client
+[17:24:33] [Server thread/INFO]: githanoz joined the game
+[17:24:33] [Server thread/INFO]: Registered trainer player: githanoz
+[17:24:34] [Server thread/INFO]: Channel update: githanoz -> default
+[17:24:34] [Server thread/INFO]: Receiving client config
+[17:24:35] [Server thread/INFO]: [FANCYMENU] A client with FancyMenu installed joined the server: githanoz
+[17:26:15] [Server thread/INFO]: githanoz lost connection: Disconnected
+[17:26:15] [Server thread/INFO]: githanoz left the game
+[17:26:15] [Server thread/INFO]: Unregistered trainer player: githanoz
