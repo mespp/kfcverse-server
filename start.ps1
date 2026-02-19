@@ -1,5 +1,5 @@
+# get into the folder
 Set-Location -Path $PSScriptRoot
-# Buscamos la carpeta que contiene la carpeta oculta '.git'
 $RepoRoot = $PSScriptRoot
 while ($RepoRoot -and -not (Test-Path (Join-Path $RepoRoot ".git"))) {
     $RepoRoot = Split-Path $RepoRoot -Parent
@@ -10,6 +10,17 @@ if (-not $RepoRoot) {
 }
 $ReadmePath = Join-Path -Path $RepoRoot -ChildPath "README.md"
 
+# sync github
+Write-Host "Syncing server" -ForegroundColor Yellow
+try {
+    Push-Location $RepoRoot
+    git pull origin main --rebase 
+    Pop-Location
+} catch {
+    Write-Host "Error. GitHub not synced." -ForegroundColor Red
+}
+
+# update github status
 function Update-GitHubStatus($status) {
     $Fecha = Get-Date -Format "dd/MM/yyyy HH:mm"
     
@@ -36,11 +47,10 @@ function Update-GitHubStatus($status) {
     }
 }
 
+# la chicha
 try {
     Update-GitHubStatus "Online"
-    
-    # Descarga de mod 
-    $URL = "https://github.com/mespp/cobbleverse-server/releases/download/mods/Cobblemon-fabric-1.7.1+1.21.1.jar"
+    $URL = "https://github.com/mespp/kfcverse-server/releases/download/mods/Cobblemon-fabric-1.7.1+1.21.1.jar"
     $ModsFolder = Join-Path -Path $RepoRoot -ChildPath "server/mods"
 
     if (-not (Test-Path $ModsFolder)) { New-Item -ItemType Directory -Path $ModsFolder | Out-Null }
@@ -63,23 +73,14 @@ try {
     # run playit
     Start-Process -FilePath "$RepoRoot/misc/playit.exe"
 
-    # 4. LANZAR SERVER Y ESPERAR
-    Write-Host "Servidor en marcha. Puedes cerrar con 'stop' o con la (X)." -ForegroundColor Cyan
-    
-    # Ejecutamos el .bat y el script se queda aquí esperando
+    Write-Host "Server online. Close typing 'stop' or just closing the window." -ForegroundColor Cyan
     Set-Location -Path "$RepoRoot/server"
     $process = Start-Process -FilePath "cmd.exe" -ArgumentList "/c start.bat" -Wait -PassThru
 }
 finally {
-    # 5. EL BACKUP (Se activa al cerrar la ventana o el proceso)
+    # backup to github
     Write-Host "Cierre detectado. Realizando backup final en GitHub..." -ForegroundColor Magenta
     Update-GitHubStatus "Offline"
     Write-Host "Backup completado." -ForegroundColor Green
-    # Damos un segundo para que el push termine antes de morir
     Start-Sleep -Seconds 2
 }
-
-# launch server
-# Push-Location -Path "server"
-# cmd.exe /c start.bat
-# Pop-Location
