@@ -1,3 +1,11 @@
+# hide the window
+$windowStyle = '[DllImport("user32.dll")] public static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);'
+$type = Add-Type -MemberDefinition $windowStyle -Name "Win32ShowWindow" -Namespace "Win32" -PassThru
+$handle = (Get-Process -Id $PID).MainWindowHandle
+if ($handle -ne [IntPtr]::Zero) {
+    $type::ShowWindow($handle, 0)
+}
+
 # get into the folder
 Set-Location -Path $PSScriptRoot
 $RepoRoot = $PSScriptRoot
