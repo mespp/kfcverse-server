@@ -8,24 +8,25 @@
   "battleTheme": "cobblemon:battle.pvp.default",
   "extraData": {},
   "advancementData": {
-    "totalCaptureCount": 2,
+    "totalCaptureCount": 3,
     "totalEggsCollected": 0,
     "totalEggsHatched": 0,
     "totalEvolvedCount": 0,
-    "totalBattleVictoryCount": 4,
+    "totalBattleVictoryCount": 6,
     "totalPvPBattleVictoryCount": 1,
-    "totalPvWBattleVictoryCount": 3,
+    "totalPvWBattleVictoryCount": 5,
     "totalPvNBattleVictoryCount": 0,
     "totalShinyCaptureCount": 0,
     "totalTradedCount": 0,
     "totalTypeCaptureCounts": {
       "dark": 1,
-      "flying": 1,
-      "water": 1
+      "flying": 2,
+      "water": 1,
+      "normal": 1
     },
     "totalDefeatedCounts": {
       "cobblemon:duskull": 1,
-      "cobblemon:pineco": 1
+      "cobblemon:pineco": 2
     },
     "aspectsCollected": {
       "cobblemon:murkrow": [
@@ -33,6 +34,9 @@
       ],
       "cobblemon:poliwag": [
         "female"
+      ],
+      "cobblemon:fletchling": [
+        "male"
       ]
     }
   }

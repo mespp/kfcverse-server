@@ -15,6 +15,7 @@
       "minecraft:grove": "2026-02-18 20:46:16 +0100",
       "minecraft:stony_shore": "2026-02-18 19:53:09 +0100",
       "minecraft:lush_caves": "2026-02-18 20:26:08 +0100",
+      "minecraft:frozen_peaks": "2026-02-22 20:21:33 +0100",
       "minecraft:jagged_peaks": "2026-02-18 20:48:01 +0100"
     },
     "done": false
@@ -840,7 +841,10 @@
       "obtain_lum_berry": "2026-02-18 21:00:55 +0100",
       "obtain_cheri_berry": "2026-02-18 21:00:55 +0100",
       "obtain_oran_berry": "2026-02-18 19:51:52 +0100",
-      "obtain_haban_berry": "2026-02-18 21:06:38 +0100"
+      "obtain_haban_berry": "2026-02-18 21:06:38 +0100",
+      "obtain_wacan_berry": "2026-02-22 20:31:02 +0100",
+      "obtain_aspear_berry": "2026-02-22 20:33:18 +0100",
+      "obtain_rabuta_berry": "2026-02-22 20:33:18 +0100"
     },
     "done": false
   },
@@ -1464,7 +1468,9 @@
   },
   "cobblemon:craft_base_balls": {
     "criteria": {
-      "poke_ball": "2026-02-18 19:51:52 +0100"
+      "poke_ball": "2026-02-18 19:51:52 +0100",
+      "premier_ball": "2026-02-22 20:33:18 +0100",
+      "azure_ball": "2026-02-22 20:30:20 +0100"
     },
     "done": false
   },
@@ -10002,7 +10008,9 @@
   },
   "cobblemon:craft_all_balls": {
     "criteria": {
-      "poke_ball": "2026-02-18 19:51:52 +0100"
+      "poke_ball": "2026-02-18 19:51:52 +0100",
+      "premier_ball": "2026-02-22 20:33:18 +0100",
+      "azure_ball": "2026-02-22 20:30:20 +0100"
     },
     "done": false
   },
@@ -24527,18 +24535,6 @@
     },
     "done": true
   },
-  "cobblemon:recipes/misc/relic_coin_pouch": {
-    "criteria": {
-      "has_coin": "2026-02-18 21:14:07 +0100"
-    },
-    "done": true
-  },
-  "cobblemon:harvest_apricorn": {
-    "criteria": {
-      "check_inv": "2026-02-18 21:06:02 +0100"
-    },
-    "done": true
-  },
   "minecraft:adventure/root": {
     "criteria": {
       "killed_by_something": "2026-02-18 20:41:37 +0100"
@@ -24551,15 +24547,39 @@
     },
     "done": false
   },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2026-02-18 20:51:15 +0100"
+    },
+    "done": true
+  },
   "cobblemon:obtain_mutated_berry": {
     "criteria": {
       "check_inv": "2026-02-18 21:00:55 +0100"
     },
     "done": true
   },
-  "minecraft:story/root": {
+  "cobblemon:harvest_apricorn": {
     "criteria": {
-      "crafting_table": "2026-02-18 20:51:15 +0100"
+      "check_inv": "2026-02-18 21:06:02 +0100"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/misc/relic_coin_pouch": {
+    "criteria": {
+      "has_coin": "2026-02-18 21:14:07 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/smelt_iron": {
+    "criteria": {
+      "iron": "2026-02-22 20:30:16 +0100"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/misc/relic_coin": {
+    "criteria": {
+      "has_pouch": "2026-02-22 20:30:22 +0100"
     },
     "done": true
   },

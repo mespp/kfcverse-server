@@ -7,8 +7,10 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:cold_ocean": "2026-02-22 20:37:01 +0100",
       "minecraft:old_growth_birch_forest": "2026-02-18 19:52:42 +0100",
       "minecraft:dark_forest": "2026-02-18 17:40:54 +0100",
+      "minecraft:taiga": "2026-02-22 20:33:15 +0100",
       "minecraft:ocean": "2026-02-18 20:24:02 +0100",
       "minecraft:river": "2026-02-18 20:22:05 +0100",
       "minecraft:grove": "2026-02-18 20:02:48 +0100",
@@ -24529,6 +24531,12 @@
   "minecraft:story/iron_tools": {
     "criteria": {
       "iron_pickaxe": "2026-02-18 20:46:08 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2026-02-22 20:35:06 +0100"
     },
     "done": true
   },
