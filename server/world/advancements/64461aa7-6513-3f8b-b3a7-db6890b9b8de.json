@@ -17,6 +17,7 @@
       "minecraft:stony_shore": "2026-02-18 19:53:05 +0100",
       "minecraft:lush_caves": "2026-02-18 20:26:23 +0100",
       "minecraft:old_growth_spruce_taiga": "2026-02-18 19:58:01 +0100",
+      "minecraft:frozen_peaks": "2026-02-22 21:01:08 +0100",
       "minecraft:jagged_peaks": "2026-02-18 20:34:35 +0100"
     },
     "done": false
@@ -24537,6 +24538,31 @@
   "minecraft:adventure/sleep_in_bed": {
     "criteria": {
       "slept_in_bed": "2026-02-22 20:35:06 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:skeleton": "2026-02-22 20:58:44 +0100",
+      "minecraft:zombie": "2026-02-22 21:04:07 +0100"
+    },
+    "done": false
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2026-02-22 20:58:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:skeleton": "2026-02-22 20:58:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2026-02-22 21:05:05 +0100"
     },
     "done": true
   },

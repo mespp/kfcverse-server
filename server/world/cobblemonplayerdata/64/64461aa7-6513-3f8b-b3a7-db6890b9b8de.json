@@ -8,24 +8,31 @@
   "battleTheme": "cobblemon:battle.pvp.default",
   "extraData": {},
   "advancementData": {
-    "totalCaptureCount": 1,
+    "totalCaptureCount": 3,
     "totalEggsCollected": 0,
     "totalEggsHatched": 0,
     "totalEvolvedCount": 0,
-    "totalBattleVictoryCount": 1,
+    "totalBattleVictoryCount": 3,
     "totalPvPBattleVictoryCount": 0,
-    "totalPvWBattleVictoryCount": 1,
+    "totalPvWBattleVictoryCount": 3,
     "totalPvNBattleVictoryCount": 0,
     "totalShinyCaptureCount": 0,
     "totalTradedCount": 0,
     "totalTypeCaptureCounts": {
-      "normal": 1,
-      "flying": 1
+      "normal": 2,
+      "flying": 2,
+      "fighting": 1
     },
     "totalDefeatedCounts": {},
     "aspectsCollected": {
       "cobblemon:hoothoot": [
         "male"
+      ],
+      "cobblemon:makuhita": [
+        "female"
+      ],
+      "cobblemon:pidove": [
+        "female"
       ]
     }
   }

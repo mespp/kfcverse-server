@@ -8,13 +8,13 @@
   "battleTheme": "cobblemon:battle.pvp.default",
   "extraData": {},
   "advancementData": {
-    "totalCaptureCount": 3,
+    "totalCaptureCount": 4,
     "totalEggsCollected": 0,
     "totalEggsHatched": 0,
     "totalEvolvedCount": 0,
-    "totalBattleVictoryCount": 6,
+    "totalBattleVictoryCount": 11,
     "totalPvPBattleVictoryCount": 1,
-    "totalPvWBattleVictoryCount": 5,
+    "totalPvWBattleVictoryCount": 10,
     "totalPvNBattleVictoryCount": 0,
     "totalShinyCaptureCount": 0,
     "totalTradedCount": 0,
@@ -22,11 +22,14 @@
       "dark": 1,
       "flying": 2,
       "water": 1,
-      "normal": 1
+      "normal": 1,
+      "fire": 1
     },
     "totalDefeatedCounts": {
       "cobblemon:duskull": 1,
-      "cobblemon:pineco": 2
+      "cobblemon:pineco": 4,
+      "cobblemon:koffing": 1,
+      "cobblemon:gimmighoul": 1
     },
     "aspectsCollected": {
       "cobblemon:murkrow": [
@@ -37,6 +40,10 @@
       ],
       "cobblemon:fletchling": [
         "male"
+      ],
+      "cobblemon:cyndaquil": [
+        "male",
+        "region-bias-hisui"
       ]
     }
   }
