@@ -24566,5 +24566,11 @@
     },
     "done": true
   },
+  "tpa:first_join": {
+    "criteria": {
+      "tick": "2026-02-27 21:08:23 +0100"
+    },
+    "done": true
+  },
   "DataVersion": 3955
 }
