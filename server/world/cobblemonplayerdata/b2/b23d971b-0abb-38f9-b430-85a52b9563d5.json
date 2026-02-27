@@ -1,0 +1,31 @@
+{
+  "uuid": "b23d971b-0abb-38f9-b430-85a52b9563d5",
+  "starterPrompted": true,
+  "starterLocked": false,
+  "starterSelected": true,
+  "starterUUID": "08294f22-6b35-4e72-8aab-7d3536634813",
+  "keyItems": [],
+  "battleTheme": "cobblemon:battle.pvp.default",
+  "extraData": {},
+  "advancementData": {
+    "totalCaptureCount": 1,
+    "totalEggsCollected": 0,
+    "totalEggsHatched": 0,
+    "totalEvolvedCount": 0,
+    "totalBattleVictoryCount": 0,
+    "totalPvPBattleVictoryCount": 0,
+    "totalPvWBattleVictoryCount": 0,
+    "totalPvNBattleVictoryCount": 0,
+    "totalShinyCaptureCount": 0,
+    "totalTradedCount": 0,
+    "totalTypeCaptureCounts": {
+      "fairy": 1
+    },
+    "totalDefeatedCounts": {},
+    "aspectsCollected": {
+      "cobblemon:togepi": [
+        "male"
+      ]
+    }
+  }
+}

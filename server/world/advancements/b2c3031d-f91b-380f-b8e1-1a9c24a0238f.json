@@ -848,7 +848,8 @@
       "obtain_haban_berry": "2026-02-18 21:06:38 +0100",
       "obtain_wacan_berry": "2026-02-22 20:31:02 +0100",
       "obtain_aspear_berry": "2026-02-22 20:33:18 +0100",
-      "obtain_rabuta_berry": "2026-02-22 20:33:18 +0100"
+      "obtain_rabuta_berry": "2026-02-22 20:33:18 +0100",
+      "obtain_chesto_berry": "2026-02-27 20:48:25 +0100"
     },
     "done": false
   },
@@ -24587,52 +24588,10 @@
     },
     "done": true
   },
-  "minecraft:husbandry/whole_pack": {
-    "criteria": {
-      "minecraft:black": "2026-02-22 21:27:48 +0100"
-    },
-    "done": false
-  },
-  "minecraft:adventure/sleep_in_bed": {
-    "criteria": {
-      "slept_in_bed": "2026-02-22 21:09:52 +0100"
-    },
-    "done": true
-  },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2026-02-22 21:04:35 +0100",
       "minecraft:zombie": "2026-02-22 21:26:03 +0100"
-    },
-    "done": false
-  },
-  "cobblemon:use_candy": {
-    "criteria": {
-      "use_s_candy": "2026-02-22 21:37:08 +0100"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/tame_an_animal": {
-    "criteria": {
-      "tamed_animal": "2026-02-22 21:27:48 +0100"
-    },
-    "done": true
-  },
-  "minecraft:story/iron_tools": {
-    "criteria": {
-      "iron_pickaxe": "2026-02-22 22:04:09 +0100"
-    },
-    "done": true
-  },
-  "cobblemon:harvest_apricorn_seed": {
-    "criteria": {
-      "check_inv": "2026-02-22 21:20:00 +0100"
-    },
-    "done": true
-  },
-  "cobblemon:brew_all": {
-    "criteria": {
-      "obtain_full_heal": "2026-02-22 21:36:49 +0100"
     },
     "done": false
   },
@@ -24642,9 +24601,57 @@
     },
     "done": true
   },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2026-02-22 21:09:52 +0100"
+    },
+    "done": true
+  },
+  "cobblemon:harvest_apricorn_seed": {
+    "criteria": {
+      "check_inv": "2026-02-22 21:20:00 +0100"
+    },
+    "done": true
+  },
   "cobblemon:obtain_big_root": {
     "criteria": {
       "check_inv": "2026-02-22 21:25:57 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/whole_pack": {
+    "criteria": {
+      "minecraft:black": "2026-02-22 21:27:48 +0100"
+    },
+    "done": false
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2026-02-22 21:27:48 +0100"
+    },
+    "done": true
+  },
+  "cobblemon:brew_all": {
+    "criteria": {
+      "obtain_full_heal": "2026-02-22 21:36:49 +0100"
+    },
+    "done": false
+  },
+  "cobblemon:use_candy": {
+    "criteria": {
+      "use_s_candy": "2026-02-22 21:37:08 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2026-02-22 22:04:09 +0100"
+    },
+    "done": true
+  },
+  "cobblemon:first_evolution": {
+    "criteria": {
+      "evolve": "2026-02-27 20:42:50 +0100"
     },
     "done": true
   },

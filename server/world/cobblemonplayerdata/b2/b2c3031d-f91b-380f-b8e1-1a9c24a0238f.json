@@ -11,10 +11,10 @@
     "totalCaptureCount": 4,
     "totalEggsCollected": 0,
     "totalEggsHatched": 0,
-    "totalEvolvedCount": 0,
-    "totalBattleVictoryCount": 11,
+    "totalEvolvedCount": 1,
+    "totalBattleVictoryCount": 13,
     "totalPvPBattleVictoryCount": 1,
-    "totalPvWBattleVictoryCount": 10,
+    "totalPvWBattleVictoryCount": 12,
     "totalPvNBattleVictoryCount": 0,
     "totalShinyCaptureCount": 0,
     "totalTradedCount": 0,
@@ -29,7 +29,9 @@
       "cobblemon:duskull": 1,
       "cobblemon:pineco": 4,
       "cobblemon:koffing": 1,
-      "cobblemon:gimmighoul": 1
+      "cobblemon:gimmighoul": 1,
+      "cobblemon:rookidee": 1,
+      "cobblemon:lechonk": 1
     },
     "aspectsCollected": {
       "cobblemon:murkrow": [
@@ -42,6 +44,10 @@
         "male"
       ],
       "cobblemon:cyndaquil": [
+        "male",
+        "region-bias-hisui"
+      ],
+      "cobblemon:quilava": [
         "male",
         "region-bias-hisui"
       ]
