@@ -8,18 +8,23 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:cold_ocean": "2026-02-22 21:35:10 +0100",
+      "minecraft:savanna_plateau": "2026-02-27 21:53:14 +0100",
       "minecraft:old_growth_pine_taiga": "2026-02-22 21:06:03 +0100",
       "minecraft:dark_forest": "2026-02-18 19:48:19 +0100",
       "minecraft:forest": "2026-02-22 21:40:48 +0100",
       "minecraft:taiga": "2026-02-18 21:08:45 +0100",
       "minecraft:river": "2026-02-18 20:24:23 +0100",
+      "minecraft:lukewarm_ocean": "2026-02-27 22:07:37 +0100",
       "minecraft:stony_shore": "2026-02-18 19:53:09 +0100",
       "minecraft:lush_caves": "2026-02-18 20:26:08 +0100",
       "minecraft:frozen_peaks": "2026-02-22 20:21:33 +0100",
       "minecraft:old_growth_birch_forest": "2026-02-18 19:52:41 +0100",
       "minecraft:ocean": "2026-02-18 20:21:57 +0100",
+      "minecraft:sunflower_plains": "2026-02-27 21:53:10 +0100",
       "minecraft:grove": "2026-02-18 20:46:16 +0100",
       "minecraft:old_growth_spruce_taiga": "2026-02-22 21:13:14 +0100",
+      "minecraft:savanna": "2026-02-27 21:52:43 +0100",
+      "minecraft:plains": "2026-02-27 21:51:46 +0100",
       "minecraft:jagged_peaks": "2026-02-18 20:48:01 +0100"
     },
     "done": false
@@ -846,10 +851,13 @@
       "obtain_cheri_berry": "2026-02-18 21:00:55 +0100",
       "obtain_oran_berry": "2026-02-18 19:51:52 +0100",
       "obtain_haban_berry": "2026-02-18 21:06:38 +0100",
+      "obtain_wiki_berry": "2026-02-27 22:28:31 +0100",
+      "obtain_chople_berry": "2026-02-27 21:31:21 +0100",
       "obtain_wacan_berry": "2026-02-22 20:31:02 +0100",
       "obtain_aspear_berry": "2026-02-22 20:33:18 +0100",
       "obtain_rabuta_berry": "2026-02-22 20:33:18 +0100",
-      "obtain_chesto_berry": "2026-02-27 20:48:25 +0100"
+      "obtain_chesto_berry": "2026-02-27 20:48:25 +0100",
+      "obtain_leppa_berry": "2026-02-27 22:28:38 +0100"
     },
     "done": false
   },
@@ -1473,6 +1481,7 @@
   },
   "cobblemon:craft_base_balls": {
     "criteria": {
+      "slate_ball": "2026-02-27 21:57:19 +0100",
       "poke_ball": "2026-02-18 19:51:52 +0100",
       "premier_ball": "2026-02-22 20:33:18 +0100",
       "azure_ball": "2026-02-22 20:30:20 +0100"
@@ -10013,6 +10022,8 @@
   },
   "cobblemon:craft_all_balls": {
     "criteria": {
+      "dive_ball": "2026-02-27 22:07:55 +0100",
+      "slate_ball": "2026-02-27 21:57:19 +0100",
       "poke_ball": "2026-02-18 19:51:52 +0100",
       "premier_ball": "2026-02-22 20:33:18 +0100",
       "azure_ball": "2026-02-22 20:30:20 +0100"
@@ -24590,6 +24601,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2026-02-27 22:26:43 +0100",
       "minecraft:skeleton": "2026-02-22 21:04:35 +0100",
       "minecraft:zombie": "2026-02-22 21:26:03 +0100"
     },
@@ -24633,7 +24645,9 @@
   },
   "cobblemon:brew_all": {
     "criteria": {
-      "obtain_full_heal": "2026-02-22 21:36:49 +0100"
+      "obtain_full_heal": "2026-02-22 21:36:49 +0100",
+      "obtain_potion": "2026-02-27 21:57:17 +0100",
+      "obtain_awakening": "2026-02-27 22:07:56 +0100"
     },
     "done": false
   },
@@ -24652,6 +24666,48 @@
   "cobblemon:first_evolution": {
     "criteria": {
       "evolve": "2026-02-27 20:42:50 +0100"
+    },
+    "done": true
+  },
+  "cobblemon:obtain_leek": {
+    "criteria": {
+      "check_inv": "2026-02-27 21:33:08 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2026-02-27 22:26:55 +0100"
+    },
+    "done": true
+  },
+  "cobblemon:obtain_tumblestone": {
+    "criteria": {
+      "check_inv": "2026-02-27 21:53:59 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/ol_betsy": {
+    "criteria": {
+      "shot_crossbow": "2026-02-27 22:26:55 +0100"
+    },
+    "done": true
+  },
+  "cobblemon:brew_potion": {
+    "criteria": {
+      "check_inv": "2026-02-27 21:57:17 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/whos_the_pillager_now": {
+    "criteria": {
+      "kill_pillager": "2026-02-27 22:26:55 +0100"
+    },
+    "done": true
+  },
+  "cobblemon:healing_machine": {
+    "criteria": {
+      "use_healing_machine": "2026-02-27 21:54:11 +0100"
     },
     "done": true
   },

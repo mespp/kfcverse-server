@@ -12,16 +12,18 @@
     "totalEggsCollected": 0,
     "totalEggsHatched": 0,
     "totalEvolvedCount": 0,
-    "totalBattleVictoryCount": 0,
+    "totalBattleVictoryCount": 1,
     "totalPvPBattleVictoryCount": 0,
-    "totalPvWBattleVictoryCount": 0,
+    "totalPvWBattleVictoryCount": 1,
     "totalPvNBattleVictoryCount": 0,
     "totalShinyCaptureCount": 0,
     "totalTradedCount": 0,
     "totalTypeCaptureCounts": {
       "fairy": 1
     },
-    "totalDefeatedCounts": {},
+    "totalDefeatedCounts": {
+      "cobblemon:vulpix": 1
+    },
     "aspectsCollected": {
       "cobblemon:togepi": [
         "male"

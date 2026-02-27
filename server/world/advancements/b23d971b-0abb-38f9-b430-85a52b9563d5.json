@@ -13,8 +13,11 @@
       "minecraft:taiga": "2026-02-27 20:50:39 +0100",
       "minecraft:ocean": "2026-02-27 20:46:36 +0100",
       "minecraft:river": "2026-02-27 20:47:10 +0100",
+      "minecraft:grove": "2026-02-27 21:14:43 +0100",
       "minecraft:lush_caves": "2026-02-27 21:03:49 +0100",
-      "minecraft:frozen_peaks": "2026-02-27 21:03:23 +0100"
+      "minecraft:old_growth_spruce_taiga": "2026-02-27 21:32:29 +0100",
+      "minecraft:frozen_peaks": "2026-02-27 21:03:23 +0100",
+      "minecraft:jagged_peaks": "2026-02-27 21:20:51 +0100"
     },
     "done": false
   },
@@ -24452,27 +24455,15 @@
     },
     "done": true
   },
-  "minecraft:story/mine_stone": {
+  "cobblemon:first_catch": {
     "criteria": {
-      "get_stone": "2026-02-27 20:45:53 +0100"
+      "catch": "2026-02-27 20:43:36 +0100"
     },
     "done": true
-  },
-  "minecraft:adventure/kill_all_mobs": {
-    "criteria": {
-      "minecraft:zombie": "2026-02-27 20:49:12 +0100"
-    },
-    "done": false
   },
   "carved_wood:recipes/decorations/barrel": {
     "criteria": {
       "has_planks": "2026-02-27 20:44:12 +0100"
-    },
-    "done": true
-  },
-  "cobblemon:harvest_apricorn": {
-    "criteria": {
-      "check_inv": "2026-02-27 21:01:59 +0100"
     },
     "done": true
   },
@@ -24482,57 +24473,15 @@
     },
     "done": true
   },
-  "minecraft:adventure/root": {
-    "criteria": {
-      "killed_something": "2026-02-27 20:49:12 +0100"
-    },
-    "done": true
-  },
-  "cobblemon:obtain_all_mints": {
-    "criteria": {
-      "obtain_pink_mint_leaf": "2026-02-27 20:44:32 +0100"
-    },
-    "done": false
-  },
-  "carved_wood:recipes/decorations/soul_campfire": {
-    "criteria": {
-      "has_stick": "2026-02-27 20:44:27 +0100"
-    },
-    "done": true
-  },
   "carved_wood:recipes/decorations/bookshelf": {
     "criteria": {
       "has_planks": "2026-02-27 20:44:12 +0100"
     },
     "done": true
   },
-  "cobblemon:first_catch": {
-    "criteria": {
-      "catch": "2026-02-27 20:43:36 +0100"
-    },
-    "done": true
-  },
-  "minecraft:story/upgrade_tools": {
-    "criteria": {
-      "stone_pickaxe": "2026-02-27 20:47:55 +0100"
-    },
-    "done": true
-  },
   "carved_wood:recipes/decorations/crafting_table": {
     "criteria": {
       "has_planks": "2026-02-27 20:44:12 +0100"
-    },
-    "done": true
-  },
-  "carved_wood:recipes/decorations/campfire": {
-    "criteria": {
-      "has_stick": "2026-02-27 20:44:27 +0100"
-    },
-    "done": true
-  },
-  "minecraft:adventure/kill_a_mob": {
-    "criteria": {
-      "minecraft:zombie": "2026-02-27 20:49:12 +0100"
     },
     "done": true
   },
@@ -24545,6 +24494,103 @@
   "minecraft:story/root": {
     "criteria": {
       "crafting_table": "2026-02-27 20:44:13 +0100"
+    },
+    "done": true
+  },
+  "carved_wood:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_stick": "2026-02-27 20:44:27 +0100"
+    },
+    "done": true
+  },
+  "carved_wood:recipes/decorations/campfire": {
+    "criteria": {
+      "has_stick": "2026-02-27 20:44:27 +0100"
+    },
+    "done": true
+  },
+  "cobblemon:obtain_all_mints": {
+    "criteria": {
+      "obtain_pink_mint_leaf": "2026-02-27 20:44:32 +0100"
+    },
+    "done": false
+  },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2026-02-27 20:45:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/upgrade_tools": {
+    "criteria": {
+      "stone_pickaxe": "2026-02-27 20:47:55 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:zombie": "2026-02-27 20:49:12 +0100"
+    },
+    "done": false
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2026-02-27 20:49:12 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:zombie": "2026-02-27 20:49:12 +0100"
+    },
+    "done": true
+  },
+  "cobblemon:harvest_apricorn": {
+    "criteria": {
+      "check_inv": "2026-02-27 21:01:59 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2026-02-27 21:24:59 +0100"
+    },
+    "done": true
+  },
+  "cobblemon:use_candy": {
+    "criteria": {
+      "use_xs_candy": "2026-02-27 21:23:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2026-02-27 21:26:39 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/smelt_iron": {
+    "criteria": {
+      "iron": "2026-02-27 21:24:23 +0100"
+    },
+    "done": true
+  },
+  "cobblemon:harvest_apricorn_seed": {
+    "criteria": {
+      "check_inv": "2026-02-27 21:22:59 +0100"
+    },
+    "done": true
+  },
+  "cobblemon:brew_all": {
+    "criteria": {
+      "obtain_ice_heal": "2026-02-27 21:22:57 +0100",
+      "obtain_burn_heal": "2026-02-27 21:24:43 +0100"
+    },
+    "done": false
+  },
+  "cobblemon:healing_machine": {
+    "criteria": {
+      "use_healing_machine": "2026-02-27 21:24:20 +0100"
     },
     "done": true
   },

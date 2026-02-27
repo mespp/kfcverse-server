@@ -8,30 +8,32 @@
   "battleTheme": "cobblemon:battle.pvp.default",
   "extraData": {},
   "advancementData": {
-    "totalCaptureCount": 4,
+    "totalCaptureCount": 5,
     "totalEggsCollected": 0,
     "totalEggsHatched": 0,
-    "totalEvolvedCount": 1,
-    "totalBattleVictoryCount": 13,
+    "totalEvolvedCount": 2,
+    "totalBattleVictoryCount": 17,
     "totalPvPBattleVictoryCount": 1,
-    "totalPvWBattleVictoryCount": 12,
+    "totalPvWBattleVictoryCount": 16,
     "totalPvNBattleVictoryCount": 0,
     "totalShinyCaptureCount": 0,
     "totalTradedCount": 0,
     "totalTypeCaptureCounts": {
       "dark": 1,
-      "flying": 2,
+      "flying": 3,
       "water": 1,
-      "normal": 1,
+      "normal": 2,
       "fire": 1
     },
     "totalDefeatedCounts": {
       "cobblemon:duskull": 1,
       "cobblemon:pineco": 4,
       "cobblemon:koffing": 1,
-      "cobblemon:gimmighoul": 1,
+      "cobblemon:gimmighoul": 2,
       "cobblemon:rookidee": 1,
-      "cobblemon:lechonk": 1
+      "cobblemon:lechonk": 1,
+      "cobblemon:sentret": 1,
+      "cobblemon:bunnelby": 1
     },
     "aspectsCollected": {
       "cobblemon:murkrow": [
@@ -50,6 +52,12 @@
       "cobblemon:quilava": [
         "male",
         "region-bias-hisui"
+      ],
+      "cobblemon:brionne": [
+        "male"
+      ],
+      "cobblemon:doduo": [
+        "female"
       ]
     }
   }
