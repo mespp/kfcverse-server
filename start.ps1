@@ -91,4 +91,7 @@ finally {
     Update-GitHubStatus "Offline"
     Write-Host "Backup completado." -ForegroundColor Green
     Start-Sleep -Seconds 2
+    
+    # close playit.exe
+    Stop-Process -Name "playit" -ErrorAction SilentlyContinue
 }
