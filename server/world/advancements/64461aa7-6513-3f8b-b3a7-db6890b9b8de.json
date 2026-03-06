@@ -24762,6 +24762,12 @@
     },
     "done": true
   },
+  "vanillabackport:recipes/tools/lead": {
+    "criteria": {
+      "has_string": "2026-03-06 20:49:14 +0100"
+    },
+    "done": true
+  },
   "minecraft:story/obtain_armor": {
     "criteria": {
       "iron_boots": "2026-03-06 20:51:36 +0100"
@@ -24771,12 +24777,6 @@
   "cobblemon:obtain_mutated_berry": {
     "criteria": {
       "check_inv": "2026-03-06 21:10:50 +0100"
-    },
-    "done": true
-  },
-  "vanillabackport:recipes/tools/lead": {
-    "criteria": {
-      "has_string": "2026-03-06 20:49:14 +0100"
     },
     "done": true
   },
