@@ -8,27 +8,33 @@
   "battleTheme": "cobblemon:battle.pvp.default",
   "extraData": {},
   "advancementData": {
-    "totalCaptureCount": 5,
+    "totalCaptureCount": 10,
     "totalEggsCollected": 0,
     "totalEggsHatched": 0,
     "totalEvolvedCount": 0,
-    "totalBattleVictoryCount": 5,
+    "totalBattleVictoryCount": 14,
     "totalPvPBattleVictoryCount": 0,
-    "totalPvWBattleVictoryCount": 5,
+    "totalPvWBattleVictoryCount": 14,
     "totalPvNBattleVictoryCount": 0,
     "totalShinyCaptureCount": 0,
     "totalTradedCount": 0,
     "totalTypeCaptureCounts": {
       "fairy": 1,
-      "normal": 2,
-      "flying": 1,
-      "water": 1,
+      "normal": 3,
+      "flying": 4,
+      "water": 2,
       "ground": 1,
-      "steel": 1
+      "steel": 1,
+      "poison": 1,
+      "fighting": 1
     },
     "totalDefeatedCounts": {
       "cobblemon:vulpix": 1,
-      "cobblemon:voltorb": 1
+      "cobblemon:voltorb": 1,
+      "cobblemon:glameow": 1,
+      "cobblemon:zigzagoon": 1,
+      "cobblemon:snubbull": 1,
+      "cobblemon:purrloin": 1
     },
     "aspectsCollected": {
       "cobblemon:togepi": [
@@ -47,6 +53,22 @@
       ],
       "cobblemon:excadrill": [
         "male"
+      ],
+      "cobblemon:zubat": [
+        "female"
+      ],
+      "cobblemon:rookidee": [
+        "female"
+      ],
+      "cobblemon:timburr": [
+        "male",
+        "tree-none"
+      ],
+      "cobblemon:psyduck": [
+        "male"
+      ],
+      "cobblemon:pidgeotto": [
+        "female"
       ]
     }
   }

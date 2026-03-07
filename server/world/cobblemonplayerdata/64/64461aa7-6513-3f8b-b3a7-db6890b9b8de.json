@@ -8,13 +8,13 @@
   "battleTheme": "cobblemon:battle.pvp.default",
   "extraData": {},
   "advancementData": {
-    "totalCaptureCount": 10,
+    "totalCaptureCount": 15,
     "totalEggsCollected": 0,
     "totalEggsHatched": 0,
     "totalEvolvedCount": 0,
-    "totalBattleVictoryCount": 16,
+    "totalBattleVictoryCount": 31,
     "totalPvPBattleVictoryCount": 0,
-    "totalPvWBattleVictoryCount": 16,
+    "totalPvWBattleVictoryCount": 31,
     "totalPvNBattleVictoryCount": 0,
     "totalShinyCaptureCount": 0,
     "totalTradedCount": 0,
@@ -22,15 +22,27 @@
       "normal": 5,
       "flying": 2,
       "fighting": 2,
-      "electric": 2,
-      "fairy": 1
+      "electric": 3,
+      "fairy": 2,
+      "fire": 1,
+      "ghost": 1,
+      "poison": 1,
+      "rock": 1,
+      "water": 1
     },
     "totalDefeatedCounts": {
       "cobblemon:snubbull": 1,
       "cobblemon:meowth": 2,
-      "cobblemon:glameow": 1,
+      "cobblemon:glameow": 2,
       "cobblemon:patrat": 1,
-      "cobblemon:sentret": 1
+      "cobblemon:sentret": 1,
+      "cobblemon:lillipup": 2,
+      "cobblemon:litleo": 1,
+      "cobblemon:mareep": 2,
+      "cobblemon:igglybuff": 1,
+      "cobblemon:munna": 1,
+      "cobblemon:carkol": 1,
+      "cobblemon:bunnelby": 1
     },
     "aspectsCollected": {
       "cobblemon:hoothoot": [
@@ -61,6 +73,18 @@
         "male"
       ],
       "cobblemon:yamper": [
+        "male"
+      ],
+      "cobblemon:torkoal": [
+        "male"
+      ],
+      "cobblemon:gastly": [
+        "male"
+      ],
+      "cobblemon:stonjourner": [
+        "female"
+      ],
+      "cobblemon:marill": [
         "male"
       ]
     }

@@ -7,17 +7,35 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:old_growth_birch_forest": "2026-03-06 19:19:57 +0100",
-      "minecraft:beach": "2026-03-06 20:01:20 +0100",
-      "minecraft:dark_forest": "2026-03-06 19:15:13 +0100",
+      "minecraft:cold_ocean": "2026-03-07 20:45:16 +0100",
+      "minecraft:old_growth_pine_taiga": "2026-03-07 19:24:15 +0100",
       "minecraft:forest": "2026-03-06 20:59:09 +0100",
+      "minecraft:taiga": "2026-03-07 19:51:42 +0100",
+      "minecraft:deep_ocean": "2026-03-06 20:02:23 +0100",
+      "minecraft:frozen_river": "2026-03-07 20:58:03 +0100",
       "minecraft:windswept_forest": "2026-03-06 20:03:28 +0100",
       "minecraft:ocean": "2026-03-06 19:58:29 +0100",
-      "minecraft:deep_ocean": "2026-03-06 20:02:23 +0100",
-      "minecraft:river": "2026-03-06 20:01:25 +0100",
+      "minecraft:jungle": "2026-03-07 19:24:29 +0100",
+      "minecraft:cherry_grove": "2026-03-07 19:11:36 +0100",
+      "minecraft:sunflower_plains": "2026-03-07 19:17:11 +0100",
+      "minecraft:birch_forest": "2026-03-07 20:33:52 +0100",
       "minecraft:old_growth_spruce_taiga": "2026-03-06 20:57:42 +0100",
+      "minecraft:bamboo_jungle": "2026-03-07 19:24:58 +0100",
+      "minecraft:deep_lukewarm_ocean": "2026-03-07 20:35:25 +0100",
+      "minecraft:savanna_plateau": "2026-03-07 19:15:28 +0100",
+      "minecraft:beach": "2026-03-06 20:01:20 +0100",
+      "minecraft:dark_forest": "2026-03-06 19:15:13 +0100",
+      "minecraft:mangrove_swamp": "2026-03-07 20:38:54 +0100",
+      "minecraft:river": "2026-03-06 20:01:25 +0100",
+      "minecraft:lukewarm_ocean": "2026-03-07 19:14:44 +0100",
+      "minecraft:stony_shore": "2026-03-07 20:16:13 +0100",
       "minecraft:dripstone_caves": "2026-03-06 20:54:55 +0100",
-      "minecraft:plains": "2026-03-06 20:03:10 +0100"
+      "minecraft:old_growth_birch_forest": "2026-03-06 19:19:57 +0100",
+      "minecraft:grove": "2026-03-07 19:23:27 +0100",
+      "minecraft:meadow": "2026-03-07 21:01:25 +0100",
+      "minecraft:savanna": "2026-03-07 19:14:20 +0100",
+      "minecraft:plains": "2026-03-06 20:03:10 +0100",
+      "minecraft:jagged_peaks": "2026-03-07 21:28:23 +0100"
     },
     "done": false
   },
@@ -533,8 +551,11 @@
   },
   "cobblemon:obtain_all_berries": {
     "criteria": {
+      "obtain_shuca_berry": "2026-03-07 21:07:30 +0100",
       "obtain_oran_berry": "2026-03-06 19:18:18 +0100",
-      "obtain_colbur_berry": "2026-03-06 20:28:55 +0100"
+      "obtain_touga_berry": "2026-03-07 21:07:41 +0100",
+      "obtain_colbur_berry": "2026-03-06 20:28:55 +0100",
+      "obtain_chesto_berry": "2026-03-07 21:07:31 +0100"
     },
     "done": false
   },
@@ -5377,6 +5398,7 @@
   "cobblemon:craft_all_balls": {
     "criteria": {
       "luxury_ball": "2026-03-06 20:12:02 +0100",
+      "nest_ball": "2026-03-07 18:58:31 +0100",
       "quick_ball": "2026-03-06 20:13:17 +0100",
       "great_ball": "2026-03-06 20:13:07 +0100",
       "timer_ball": "2026-03-06 20:12:12 +0100",
@@ -5392,6 +5414,7 @@
       "level_ball": "2026-03-06 20:12:10 +0100",
       "sport_ball": "2026-03-06 20:13:32 +0100",
       "safari_ball": "2026-03-06 20:10:54 +0100",
+      "heavy_ball": "2026-03-07 18:59:03 +0100",
       "dream_ball": "2026-03-06 20:13:33 +0100",
       "verdant_ball": "2026-03-06 20:13:30 +0100",
       "fast_ball": "2026-03-06 20:16:53 +0100",
@@ -5404,6 +5427,7 @@
       "ancient_azure_ball": "2026-03-06 20:08:11 +0100",
       "ancient_ivory_ball": "2026-03-06 20:12:38 +0100",
       "roseate_ball": "2026-03-06 20:28:17 +0100",
+      "lure_ball": "2026-03-07 18:59:00 +0100",
       "ancient_roseate_ball": "2026-03-06 20:11:33 +0100",
       "park_ball": "2026-03-06 20:12:26 +0100",
       "premier_ball": "2026-03-06 20:28:14 +0100"
@@ -25172,8 +25196,10 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2026-03-06 19:50:07 +0100",
+      "minecraft:phantom": "2026-03-07 21:34:23 +0100",
       "minecraft:spider": "2026-03-06 20:47:04 +0100",
-      "minecraft:zombie": "2026-03-06 19:22:35 +0100"
+      "minecraft:zombie": "2026-03-06 19:22:35 +0100",
+      "minecraft:drowned": "2026-03-07 21:33:27 +0100"
     },
     "done": false
   },
@@ -25239,6 +25265,8 @@
   },
   "cobblemon:cook_all_regional_delicacies": {
     "criteria": {
+      "casteliacone": "2026-03-07 18:57:13 +0100",
+      "big_malasada": "2026-03-07 20:00:12 +0100",
       "old_gateau": "2026-03-06 20:08:00 +0100"
     },
     "done": false
@@ -25263,8 +25291,10 @@
   },
   "cobblemon:craft_apricorn_balls": {
     "criteria": {
+      "lure_ball": "2026-03-07 18:59:00 +0100",
       "level_ball": "2026-03-06 20:12:10 +0100",
       "moon_ball": "2026-03-06 20:09:16 +0100",
+      "heavy_ball": "2026-03-07 18:59:03 +0100",
       "love_ball": "2026-03-06 20:28:40 +0100",
       "fast_ball": "2026-03-06 20:16:53 +0100"
     },
@@ -25309,6 +25339,96 @@
   "minecraft:story/mine_diamond": {
     "criteria": {
       "diamond": "2026-03-06 21:15:32 +0100"
+    },
+    "done": true
+  },
+  "cobblemon:first_evolution": {
+    "criteria": {
+      "evolve": "2026-03-07 17:52:10 +0100"
+    },
+    "done": true
+  },
+  "cobblemon:full_party": {
+    "criteria": {
+      "full_party": "2026-03-07 18:12:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_chestplate": "2026-03-07 18:45:05 +0100"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/netherite_backpack": {
+    "criteria": {
+      "has_diamond_backpack": "2026-03-07 18:50:14 +0100"
+    },
+    "done": true
+  },
+  "cobblemon:ride_pokemon": {
+    "criteria": {
+      "check_inv": "2026-03-07 19:13:31 +0100"
+    },
+    "done": true
+  },
+  "cobblemon:obtain_tumblestone": {
+    "criteria": {
+      "check_inv": "2026-03-07 19:19:52 +0100"
+    },
+    "done": true
+  },
+  "cobblemon:brew_potion": {
+    "criteria": {
+      "check_inv": "2026-03-07 19:19:52 +0100"
+    },
+    "done": true
+  },
+  "cobblemon:brew_all": {
+    "criteria": {
+      "obtain_potion": "2026-03-07 19:19:52 +0100"
+    },
+    "done": false
+  },
+  "minecraft:adventure/salvage_sherd": {
+    "criteria": {
+      "has_sherd": "2026-03-07 19:20:27 +0100"
+    },
+    "done": false
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2026-03-07 19:29:43 +0100"
+    },
+    "done": true
+  },
+  "cobblemon:use_candy": {
+    "criteria": {
+      "use_s_candy": "2026-03-07 19:59:51 +0100"
+    },
+    "done": true
+  },
+  "cobblemon:obtain_mutated_berry": {
+    "criteria": {
+      "check_inv": "2026-03-07 21:07:41 +0100"
+    },
+    "done": true
+  },
+  "cobblemon:craft_rod": {
+    "criteria": {
+      "craft_rod": "2026-03-07 21:07:59 +0100"
+    },
+    "done": true
+  },
+  "cobblemon:obtain_fossil": {
+    "criteria": {
+      "check_inv": "2026-03-07 21:08:01 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2026-03-07 21:26:35 +0100"
     },
     "done": true
   },

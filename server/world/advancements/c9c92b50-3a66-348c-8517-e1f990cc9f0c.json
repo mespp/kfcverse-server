@@ -7,23 +7,31 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:cold_ocean": "2026-03-07 20:36:31 +0100",
+      "minecraft:old_growth_pine_taiga": "2026-03-06 18:01:18 +0100",
+      "minecraft:forest": "2026-03-06 18:51:25 +0100",
+      "minecraft:taiga": "2026-03-07 20:33:29 +0100",
+      "minecraft:deep_ocean": "2026-03-07 20:36:16 +0100",
+      "minecraft:lush_caves": "2026-03-06 19:19:21 +0100",
+      "minecraft:deep_cold_ocean": "2026-03-07 20:36:26 +0100",
+      "minecraft:windswept_forest": "2026-03-06 18:03:46 +0100",
+      "minecraft:ocean": "2026-03-06 20:13:49 +0100",
+      "minecraft:jungle": "2026-03-07 20:13:16 +0100",
+      "minecraft:cherry_grove": "2026-03-06 18:12:45 +0100",
+      "minecraft:sunflower_plains": "2026-03-06 18:17:08 +0100",
+      "minecraft:old_growth_spruce_taiga": "2026-03-06 18:00:11 +0100",
       "minecraft:savanna_plateau": "2026-03-06 18:13:51 +0100",
       "minecraft:beach": "2026-03-06 18:10:30 +0100",
-      "minecraft:old_growth_pine_taiga": "2026-03-06 18:01:18 +0100",
       "minecraft:dark_forest": "2026-03-06 17:25:33 +0100",
-      "minecraft:forest": "2026-03-06 18:51:25 +0100",
+      "minecraft:sparse_jungle": "2026-03-07 20:17:52 +0100",
       "minecraft:river": "2026-03-06 18:01:11 +0100",
       "minecraft:lukewarm_ocean": "2026-03-06 19:06:21 +0100",
       "minecraft:stony_shore": "2026-03-06 17:27:33 +0100",
-      "minecraft:lush_caves": "2026-03-06 19:19:21 +0100",
       "minecraft:dripstone_caves": "2026-03-06 19:33:58 +0100",
+      "minecraft:frozen_peaks": "2026-03-07 20:33:30 +0100",
       "minecraft:old_growth_birch_forest": "2026-03-06 17:28:42 +0100",
-      "minecraft:windswept_forest": "2026-03-06 18:03:46 +0100",
-      "minecraft:ocean": "2026-03-06 20:13:49 +0100",
-      "minecraft:cherry_grove": "2026-03-06 18:12:45 +0100",
-      "minecraft:sunflower_plains": "2026-03-06 18:17:08 +0100",
+      "minecraft:deep_dark": "2026-03-07 18:46:14 +0100",
       "minecraft:grove": "2026-03-06 17:57:34 +0100",
-      "minecraft:old_growth_spruce_taiga": "2026-03-06 18:00:11 +0100",
       "minecraft:savanna": "2026-03-06 18:10:00 +0100",
       "minecraft:plains": "2026-03-06 18:15:07 +0100",
       "minecraft:jagged_peaks": "2026-03-06 17:59:30 +0100"
@@ -1359,6 +1367,8 @@
   "cobblemon:obtain_all_berries": {
     "criteria": {
       "obtain_persim_berry": "2026-03-06 18:55:00 +0100",
+      "obtain_shuca_berry": "2026-03-07 19:05:59 +0100",
+      "obtain_cheri_berry": "2026-03-07 16:58:16 +0100",
       "obtain_oran_berry": "2026-03-06 17:28:16 +0100"
     },
     "done": false
@@ -1989,9 +1999,12 @@
   },
   "cobblemon:craft_base_balls": {
     "criteria": {
+      "roseate_ball": "2026-03-07 19:42:26 +0100",
       "slate_ball": "2026-03-06 20:04:33 +0100",
       "poke_ball": "2026-03-06 17:28:16 +0100",
-      "premier_ball": "2026-03-06 20:04:49 +0100"
+      "premier_ball": "2026-03-06 20:04:49 +0100",
+      "azure_ball": "2026-03-07 15:57:00 +0100",
+      "verdant_ball": "2026-03-07 18:22:51 +0100"
     },
     "done": false
   },
@@ -10517,9 +10530,12 @@
   },
   "cobblemon:craft_all_balls": {
     "criteria": {
+      "roseate_ball": "2026-03-07 19:42:26 +0100",
       "slate_ball": "2026-03-06 20:04:33 +0100",
       "poke_ball": "2026-03-06 17:28:16 +0100",
-      "premier_ball": "2026-03-06 20:04:49 +0100"
+      "premier_ball": "2026-03-06 20:04:49 +0100",
+      "azure_ball": "2026-03-07 15:57:00 +0100",
+      "verdant_ball": "2026-03-07 18:22:51 +0100"
     },
     "done": false
   },
@@ -25190,9 +25206,13 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2026-03-07 18:32:13 +0100",
       "minecraft:skeleton": "2026-03-06 18:33:14 +0100",
+      "minecraft:witch": "2026-03-07 17:33:32 +0100",
       "minecraft:spider": "2026-03-06 18:37:04 +0100",
-      "minecraft:zombie": "2026-03-06 18:19:03 +0100"
+      "minecraft:zombie": "2026-03-06 18:19:03 +0100",
+      "minecraft:drowned": "2026-03-07 16:45:46 +0100",
+      "minecraft:zombie_villager": "2026-03-07 21:10:00 +0100"
     },
     "done": false
   },
@@ -25262,33 +25282,9 @@
     },
     "done": true
   },
-  "moarconcrete:recipes/building_blocks/brown_concrete_brick_slab_from_brown_concrete_stonecutting": {
-    "criteria": {
-      "has_brown_concrete": "2026-03-06 19:55:56 +0100"
-    },
-    "done": true
-  },
-  "moarconcrete:recipes/building_blocks/brown_concrete_bricks_from_brown_concrete_stonecutting": {
-    "criteria": {
-      "has_brown_concrete": "2026-03-06 19:55:56 +0100"
-    },
-    "done": true
-  },
   "moarconcrete:recipes/building_blocks/black_concrete_slab_from_black_concrete_stonecutting": {
     "criteria": {
       "has_black_concrete": "2026-03-06 19:55:49 +0100"
-    },
-    "done": true
-  },
-  "moarconcrete:recipes/building_blocks/brown_concrete_wall_from_brown_concrete_stonecutting": {
-    "criteria": {
-      "has_brown_concrete": "2026-03-06 19:55:56 +0100"
-    },
-    "done": true
-  },
-  "cobblemon:harvest_apricorn": {
-    "criteria": {
-      "check_inv": "2026-03-06 20:22:49 +0100"
     },
     "done": true
   },
@@ -25304,18 +25300,6 @@
     },
     "done": true
   },
-  "moarconcrete:recipes/building_blocks/brown_concrete_slab_from_brown_concrete_stonecutting": {
-    "criteria": {
-      "has_brown_concrete": "2026-03-06 19:55:56 +0100"
-    },
-    "done": true
-  },
-  "moarconcrete:recipes/building_blocks/brown_concrete_panel_from_brown_concrete_stonecutting": {
-    "criteria": {
-      "has_brown_concrete": "2026-03-06 19:55:56 +0100"
-    },
-    "done": true
-  },
   "moarconcrete:recipes/building_blocks/black_concrete_brick_slab_from_black_concrete_stonecutting": {
     "criteria": {
       "has_black_concrete": "2026-03-06 19:55:49 +0100"
@@ -25325,6 +25309,42 @@
   "moarconcrete:recipes/building_blocks/black_concrete_wall_from_black_concrete_stonecutting": {
     "criteria": {
       "has_black_concrete": "2026-03-06 19:55:49 +0100"
+    },
+    "done": true
+  },
+  "moarconcrete:recipes/building_blocks/black_concrete_panel_from_black_concrete_stonecutting": {
+    "criteria": {
+      "has_black_concrete": "2026-03-06 19:55:49 +0100"
+    },
+    "done": true
+  },
+  "moarconcrete:recipes/building_blocks/brown_concrete_brick_slab_from_brown_concrete_stonecutting": {
+    "criteria": {
+      "has_brown_concrete": "2026-03-06 19:55:56 +0100"
+    },
+    "done": true
+  },
+  "moarconcrete:recipes/building_blocks/brown_concrete_bricks_from_brown_concrete_stonecutting": {
+    "criteria": {
+      "has_brown_concrete": "2026-03-06 19:55:56 +0100"
+    },
+    "done": true
+  },
+  "moarconcrete:recipes/building_blocks/brown_concrete_wall_from_brown_concrete_stonecutting": {
+    "criteria": {
+      "has_brown_concrete": "2026-03-06 19:55:56 +0100"
+    },
+    "done": true
+  },
+  "moarconcrete:recipes/building_blocks/brown_concrete_slab_from_brown_concrete_stonecutting": {
+    "criteria": {
+      "has_brown_concrete": "2026-03-06 19:55:56 +0100"
+    },
+    "done": true
+  },
+  "moarconcrete:recipes/building_blocks/brown_concrete_panel_from_brown_concrete_stonecutting": {
+    "criteria": {
+      "has_brown_concrete": "2026-03-06 19:55:56 +0100"
     },
     "done": true
   },
@@ -25340,11 +25360,143 @@
     },
     "done": false
   },
-  "moarconcrete:recipes/building_blocks/black_concrete_panel_from_black_concrete_stonecutting": {
+  "cobblemon:harvest_apricorn": {
     "criteria": {
-      "has_black_concrete": "2026-03-06 19:55:49 +0100"
+      "check_inv": "2026-03-06 20:22:49 +0100"
     },
     "done": true
+  },
+  "cobblemon:harvest_apricorn_seed": {
+    "criteria": {
+      "check_inv": "2026-03-07 15:51:11 +0100"
+    },
+    "done": true
+  },
+  "cobblemon:rainbow_apricorns": {
+    "criteria": {
+      "place_pink": "2026-03-07 15:51:46 +0100"
+    },
+    "done": false
+  },
+  "cobblemon:obtain_big_root": {
+    "criteria": {
+      "check_inv": "2026-03-07 16:09:38 +0100"
+    },
+    "done": true
+  },
+  "cobblemon:full_party": {
+    "criteria": {
+      "full_party": "2026-03-07 16:18:33 +0100"
+    },
+    "done": true
+  },
+  "vanillabackport:recipes/combat/saddle": {
+    "criteria": {
+      "has_leather": "2026-03-07 16:40:28 +0100"
+    },
+    "done": true
+  },
+  "moarconcrete:recipes/building_blocks/white_concrete_stairs_from_white_concrete_stonecutting": {
+    "criteria": {
+      "has_white_concrete": "2026-03-07 17:21:34 +0100"
+    },
+    "done": true
+  },
+  "moarconcrete:recipes/building_blocks/white_concrete_panel_from_white_concrete_stonecutting": {
+    "criteria": {
+      "has_white_concrete": "2026-03-07 17:21:34 +0100"
+    },
+    "done": true
+  },
+  "moarconcrete:recipes/building_blocks/white_concrete_slab_from_white_concrete_stonecutting": {
+    "criteria": {
+      "has_white_concrete": "2026-03-07 17:21:34 +0100"
+    },
+    "done": true
+  },
+  "moarconcrete:recipes/building_blocks/white_concrete_bricks_from_white_concrete_stonecutting": {
+    "criteria": {
+      "has_white_concrete": "2026-03-07 17:21:34 +0100"
+    },
+    "done": true
+  },
+  "moarconcrete:recipes/building_blocks/white_concrete_wall_from_white_concrete_stonecutting": {
+    "criteria": {
+      "has_white_concrete": "2026-03-07 17:21:34 +0100"
+    },
+    "done": true
+  },
+  "moarconcrete:recipes/building_blocks/white_concrete_brick_slab_from_white_concrete_stonecutting": {
+    "criteria": {
+      "has_white_concrete": "2026-03-07 17:21:34 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2026-03-07 17:23:27 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "honey_bottle": "2026-03-07 17:23:27 +0100"
+    },
+    "done": false
+  },
+  "sophisticatedstorage:recipes/misc/limited_copper_barrel_4": {
+    "criteria": {
+      "has_limited_barrel_4": "2026-03-07 17:39:11 +0100"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/limited_iron_barrel_4": {
+    "criteria": {
+      "has_limited_barrel_4": "2026-03-07 17:39:11 +0100"
+    },
+    "done": true
+  },
+  "cobblemon:obtain_revival_herb": {
+    "criteria": {
+      "check_inv": "2026-03-07 18:44:38 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_diamond": {
+    "criteria": {
+      "diamond": "2026-03-07 18:46:11 +0100"
+    },
+    "done": true
+  },
+  "cobblemon:healing_machine": {
+    "criteria": {
+      "use_healing_machine": "2026-03-07 19:19:09 +0100"
+    },
+    "done": true
+  },
+  "cobblemon:ride_pokemon": {
+    "criteria": {
+      "check_inv": "2026-03-07 19:26:32 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2026-03-07 21:02:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2026-03-07 21:02:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:nether_wastes": "2026-03-07 21:02:05 +0100"
+    },
+    "done": false
   },
   "DataVersion": 3955
 }

@@ -8,22 +8,31 @@
   "battleTheme": "cobblemon:battle.pvp.default",
   "extraData": {},
   "advancementData": {
-    "totalCaptureCount": 2,
+    "totalCaptureCount": 10,
     "totalEggsCollected": 0,
     "totalEggsHatched": 0,
-    "totalEvolvedCount": 0,
-    "totalBattleVictoryCount": 2,
+    "totalEvolvedCount": 1,
+    "totalBattleVictoryCount": 11,
     "totalPvPBattleVictoryCount": 0,
-    "totalPvWBattleVictoryCount": 2,
+    "totalPvWBattleVictoryCount": 11,
     "totalPvNBattleVictoryCount": 0,
     "totalShinyCaptureCount": 0,
     "totalTradedCount": 0,
     "totalTypeCaptureCounts": {
       "psychic": 1,
-      "ground": 1,
-      "steel": 1
+      "ground": 2,
+      "steel": 3,
+      "poison": 1,
+      "flying": 3,
+      "rock": 1,
+      "dragon": 1,
+      "ghost": 1,
+      "fairy": 1,
+      "normal": 1
     },
-    "totalDefeatedCounts": {},
+    "totalDefeatedCounts": {
+      "cobblemon:gimmighoul": 2
+    },
     "aspectsCollected": {
       "cobblemon:hatenna": [
         "female"
@@ -31,6 +40,34 @@
       "cobblemon:diglett": [
         "male",
         "alolan"
+      ],
+      "cobblemon:marshtomp": [
+        "male"
+      ],
+      "cobblemon:zubat": [
+        "female"
+      ],
+      "cobblemon:excadrill": [
+        "female"
+      ],
+      "cobblemon:roggenrola": [
+        "male"
+      ],
+      "cobblemon:goomy": [
+        "female",
+        "region-bias-hisui"
+      ],
+      "cobblemon:gimmighoul": [
+        "genderless"
+      ],
+      "cobblemon:tinkatink": [
+        "female"
+      ],
+      "cobblemon:rookidee": [
+        "male"
+      ],
+      "cobblemon:fearow": [
+        "male"
       ]
     }
   }

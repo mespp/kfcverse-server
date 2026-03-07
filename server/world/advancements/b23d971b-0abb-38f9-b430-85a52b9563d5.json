@@ -9,6 +9,7 @@
     "criteria": {
       "minecraft:cold_ocean": "2026-02-27 20:50:26 +0100",
       "minecraft:beach": "2026-03-01 19:40:08 +0100",
+      "minecraft:old_growth_pine_taiga": "2026-03-07 20:48:54 +0100",
       "minecraft:dark_forest": "2026-02-27 20:39:11 +0100",
       "minecraft:forest": "2026-03-01 19:31:36 +0100",
       "minecraft:taiga": "2026-02-27 20:50:39 +0100",
@@ -17,10 +18,12 @@
       "minecraft:lush_caves": "2026-02-27 21:03:49 +0100",
       "minecraft:dripstone_caves": "2026-03-06 20:52:20 +0100",
       "minecraft:frozen_peaks": "2026-02-27 21:03:23 +0100",
+      "minecraft:deep_cold_ocean": "2026-03-07 20:40:08 +0100",
       "minecraft:old_growth_birch_forest": "2026-02-27 20:41:40 +0100",
       "minecraft:windswept_forest": "2026-03-01 19:38:23 +0100",
       "minecraft:ocean": "2026-02-27 20:46:36 +0100",
       "minecraft:grove": "2026-02-27 21:14:43 +0100",
+      "minecraft:birch_forest": "2026-03-07 20:28:58 +0100",
       "minecraft:old_growth_spruce_taiga": "2026-02-27 21:32:29 +0100",
       "minecraft:plains": "2026-03-01 19:41:33 +0100",
       "minecraft:jagged_peaks": "2026-02-27 21:20:51 +0100"
@@ -1219,10 +1222,12 @@
   },
   "cobblemon:craft_base_balls": {
     "criteria": {
+      "roseate_ball": "2026-03-07 20:24:30 +0100",
       "slate_ball": "2026-03-06 20:12:26 +0100",
       "poke_ball": "2026-02-27 20:39:24 +0100",
       "premier_ball": "2026-03-06 20:27:46 +0100",
-      "citrine_ball": "2026-03-06 20:12:32 +0100"
+      "citrine_ball": "2026-03-06 20:12:32 +0100",
+      "verdant_ball": "2026-03-07 20:23:08 +0100"
     },
     "done": false
   },
@@ -8164,6 +8169,7 @@
   },
   "cobblemon:craft_all_balls": {
     "criteria": {
+      "luxury_ball": "2026-03-07 20:24:28 +0100",
       "nest_ball": "2026-03-06 20:12:35 +0100",
       "great_ball": "2026-03-06 20:18:36 +0100",
       "slate_ball": "2026-03-06 20:12:26 +0100",
@@ -8171,14 +8177,20 @@
       "ancient_feather_ball": "2026-03-06 20:24:37 +0100",
       "moon_ball": "2026-03-06 20:12:28 +0100",
       "poke_ball": "2026-02-27 20:39:24 +0100",
+      "love_ball": "2026-03-07 20:24:39 +0100",
       "citrine_ball": "2026-03-06 20:12:32 +0100",
+      "ancient_azure_ball": "2026-03-07 20:24:56 +0100",
+      "net_ball": "2026-03-07 20:23:07 +0100",
       "ancient_ivory_ball": "2026-03-06 20:12:24 +0100",
+      "roseate_ball": "2026-03-07 20:24:30 +0100",
+      "lure_ball": "2026-03-07 20:24:39 +0100",
       "level_ball": "2026-03-06 20:08:13 +0100",
       "friend_ball": "2026-03-06 20:26:45 +0100",
       "sport_ball": "2026-03-06 20:23:34 +0100",
       "safari_ball": "2026-03-06 20:08:13 +0100",
       "premier_ball": "2026-03-06 20:27:46 +0100",
       "park_ball": "2026-03-06 20:10:08 +0100",
+      "verdant_ball": "2026-03-07 20:23:08 +0100",
       "ultra_ball": "2026-03-06 21:06:24 +0100"
     },
     "done": false
@@ -24665,8 +24677,11 @@
   },
   "cobblemon:cook_all_regional_delicacies": {
     "criteria": {
+      "casteliacone": "2026-03-07 20:24:02 +0100",
       "big_malasada": "2026-03-06 20:07:45 +0100",
-      "lava_cookie": "2026-03-06 20:07:44 +0100"
+      "rage_candy_bar": "2026-03-07 20:21:34 +0100",
+      "lava_cookie": "2026-03-06 20:07:44 +0100",
+      "smoked_tail_curry": "2026-03-07 20:24:02 +0100"
     },
     "done": false
   },
@@ -24674,15 +24689,18 @@
     "criteria": {
       "ancient_ivory_ball": "2026-03-06 20:12:24 +0100",
       "ancient_verdant_ball": "2026-03-06 20:07:54 +0100",
-      "ancient_feather_ball": "2026-03-06 20:24:37 +0100"
+      "ancient_feather_ball": "2026-03-06 20:24:37 +0100",
+      "ancient_azure_ball": "2026-03-07 20:24:56 +0100"
     },
     "done": false
   },
   "cobblemon:craft_apricorn_balls": {
     "criteria": {
+      "lure_ball": "2026-03-07 20:24:39 +0100",
       "level_ball": "2026-03-06 20:08:13 +0100",
       "friend_ball": "2026-03-06 20:26:45 +0100",
-      "moon_ball": "2026-03-06 20:12:28 +0100"
+      "moon_ball": "2026-03-06 20:12:28 +0100",
+      "love_ball": "2026-03-07 20:24:39 +0100"
     },
     "done": false
   },
@@ -24930,6 +24948,18 @@
   "minecraft:story/mine_diamond": {
     "criteria": {
       "diamond": "2026-03-06 21:05:21 +0100"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/netherite_backpack": {
+    "criteria": {
+      "has_diamond_backpack": "2026-03-07 20:08:24 +0100"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/diamond_backpack": {
+    "criteria": {
+      "has_gold_backpack": "2026-03-07 20:08:15 +0100"
     },
     "done": true
   },

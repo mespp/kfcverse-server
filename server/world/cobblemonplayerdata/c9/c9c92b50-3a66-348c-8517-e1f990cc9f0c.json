@@ -8,25 +8,45 @@
   "battleTheme": "cobblemon:battle.pvp.default",
   "extraData": {},
   "advancementData": {
-    "totalCaptureCount": 2,
+    "totalCaptureCount": 10,
     "totalEggsCollected": 0,
     "totalEggsHatched": 0,
-    "totalEvolvedCount": 1,
-    "totalBattleVictoryCount": 2,
+    "totalEvolvedCount": 3,
+    "totalBattleVictoryCount": 24,
     "totalPvPBattleVictoryCount": 0,
-    "totalPvWBattleVictoryCount": 2,
+    "totalPvWBattleVictoryCount": 24,
     "totalPvNBattleVictoryCount": 0,
     "totalShinyCaptureCount": 0,
     "totalTradedCount": 0,
     "totalTypeCaptureCounts": {
-      "water": 1,
-      "fairy": 1,
+      "water": 2,
+      "fairy": 3,
       "psychic": 1,
-      "flying": 1
+      "flying": 2,
+      "dark": 1,
+      "rock": 1,
+      "ground": 1,
+      "normal": 3,
+      "steel": 1
     },
     "totalDefeatedCounts": {
       "cobblemon:meowth": 1,
-      "cobblemon:zigzagoon": 1
+      "cobblemon:zigzagoon": 3,
+      "cobblemon:taillow": 3,
+      "cobblemon:snubbull": 1,
+      "cobblemon:bidoof": 1,
+      "cobblemon:rapidash": 1,
+      "cobblemon:medicham": 1,
+      "cobblemon:cutiefly": 1,
+      "cobblemon:lechonk": 1,
+      "cobblemon:fidough": 1,
+      "cobblemon:skitty": 2,
+      "cobblemon:glameow": 1,
+      "cobblemon:watchog": 1,
+      "cobblemon:drowzee": 1,
+      "cobblemon:voltorb": 1,
+      "cobblemon:pancham": 1,
+      "cobblemon:ledian": 1
     },
     "aspectsCollected": {
       "cobblemon:marill": [
@@ -37,6 +57,42 @@
       ],
       "cobblemon:woobat": [
         "female"
+      ],
+      "cobblemon:maschiff": [
+        "female"
+      ],
+      "cobblemon:geodude": [
+        "male"
+      ],
+      "cobblemon:sentret": [
+        "male"
+      ],
+      "cobblemon:klefki": [
+        "female",
+        "keya-15",
+        "keyb-14",
+        "keyc-6",
+        "keyd-4"
+      ],
+      "cobblemon:fidough": [
+        "female"
+      ],
+      "cobblemon:magikarp": [
+        "female",
+        "magikarp-jump-standard",
+        "gyarados-eye-color-purple"
+      ],
+      "cobblemon:bouffalant": [
+        "male"
+      ],
+      "cobblemon:trumbeak": [
+        "male"
+      ],
+      "cobblemon:toucannon": [
+        "male"
+      ],
+      "cobblemon:graveler": [
+        "male"
       ]
     }
   }
