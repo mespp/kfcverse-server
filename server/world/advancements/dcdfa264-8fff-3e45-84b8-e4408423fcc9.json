@@ -25300,15 +25300,15 @@
     },
     "done": true
   },
-  "minecraft:story/mine_diamond": {
-    "criteria": {
-      "diamond": "2026-03-06 21:15:32 +0100"
-    },
-    "done": true
-  },
   "minecraft:story/iron_tools": {
     "criteria": {
       "iron_pickaxe": "2026-03-06 21:06:03 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_diamond": {
+    "criteria": {
+      "diamond": "2026-03-06 21:15:32 +0100"
     },
     "done": true
   },

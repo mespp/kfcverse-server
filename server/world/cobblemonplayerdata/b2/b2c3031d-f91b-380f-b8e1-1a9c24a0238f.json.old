@@ -8,26 +8,26 @@
   "battleTheme": "cobblemon:battle.pvp.default",
   "extraData": {},
   "advancementData": {
-    "totalCaptureCount": 7,
+    "totalCaptureCount": 8,
     "totalEggsCollected": 0,
     "totalEggsHatched": 0,
-    "totalEvolvedCount": 2,
-    "totalBattleVictoryCount": 28,
+    "totalEvolvedCount": 3,
+    "totalBattleVictoryCount": 34,
     "totalPvPBattleVictoryCount": 1,
-    "totalPvWBattleVictoryCount": 26,
+    "totalPvWBattleVictoryCount": 32,
     "totalPvNBattleVictoryCount": 1,
-    "totalShinyCaptureCount": 0,
+    "totalShinyCaptureCount": 1,
     "totalTradedCount": 0,
     "totalTypeCaptureCounts": {
       "dark": 1,
       "flying": 3,
       "water": 2,
-      "normal": 3,
+      "normal": 4,
       "fire": 1
     },
     "totalDefeatedCounts": {
       "cobblemon:duskull": 1,
-      "cobblemon:pineco": 4,
+      "cobblemon:pineco": 7,
       "cobblemon:koffing": 1,
       "cobblemon:gimmighoul": 6,
       "cobblemon:rookidee": 1,
@@ -37,7 +37,8 @@
       "cobblemon:voltorb": 1,
       "cobblemon:lillipup": 1,
       "cobblemon:wurmple": 1,
-      "cobblemon:timburr": 1
+      "cobblemon:timburr": 2,
+      "cobblemon:mankey": 1
     },
     "aspectsCollected": {
       "cobblemon:murkrow": [
@@ -67,6 +68,13 @@
         "female"
       ],
       "cobblemon:rattata": [
+        "female"
+      ],
+      "cobblemon:fletchinder": [
+        "male"
+      ],
+      "cobblemon:skwovet": [
+        "shiny",
         "female"
       ]
     }
